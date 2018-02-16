@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="beginning">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/grass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/phaser-logo-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/ConsoleLogColors.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Flash to Phaser JSFL/Flash to Phaser Guide.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Flash to Phaser JSFL/Flash to Phaser Guide.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/128px/ninja-tiles128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/32px/ninja-tiles32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/64px/ninja-tiles64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg nn B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg nn S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg np B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg np S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg pn B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg pn S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg pp B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/22 deg pp S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/45 deg nn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/45 deg np.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/45 deg pn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/45 deg pp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg nn B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg nn S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg np B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg np S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg pn B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg pn S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg pp B.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/67 deg pp S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/concave nn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/concave np.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/concave pn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/concave pp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/convex nn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/convex np.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/convex pn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/convex pp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/full list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/full.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/half d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/half l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/half r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Ninja Physics Debug Tiles/named/half u.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/2D Text/Phaser 2D Glow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/2D Text/Phaser 2D Glow.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/2D Text/Phaser 2D No Glow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/2D Text/Phaser 2D No Glow.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/2D Text/Phaser Logo 2D Vector Outline.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/PNG/Phaser Logo Print Quality.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/PNG/Phaser Logo Web Quality.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/PNG/Phaser Logo iPad Resolution.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/PNG/Phaser-Logo-Small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Pixel Art/Phaser-Logo-Sizes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Pixel Art/phaser_pixel_large_shaded.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Pixel Art/phaser_pixel_medium_flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Pixel Art/phaser_pixel_medium_shaded.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Pixel Art/phaser_pixel_small_flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Vector/Phaser Logo.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Phaser Logo/Vector/Phaser Logo.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Pixi Logo/pixi-v2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_1024x1024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_256x256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_512x512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/icons/app_icon_76x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/images/orientation.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/assets/phaser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/public/assets/images/phaser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/public/assets/scripts/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/icon/drawable-xxxhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-land-hdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-land-mdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-land-xhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-land-xxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-40@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-40@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-50@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-60@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-60@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-72@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-76@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-83.5@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-small@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon-small@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/icon/icon@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-568h@2x~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-667h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-736h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Landscape-736h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Landscape@2x~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Landscape@~ipadpro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Landscape~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Portrait@2x~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Portrait@~ipadpro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default-Portrait~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default@2x~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/ios/splash/Default~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/resources/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/assets/icon/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/kaleidoscope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-cybernoid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-demoscene.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-fireball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-flood-fill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-p2-cannon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-protracker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser-waves.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_balls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_bitmapdata.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_blaster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_cams.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_checkerwave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_desert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_fixed_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_fruit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_fruit_particles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_mapdraw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_marble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_mario_combo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_multiple_anims.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_particle_trails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_particles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_platformer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_polygons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_quadtree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_rotate4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_scrollfactor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_sprite_bounds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_tanks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_tilemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_tilemap_collision.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_tilemap_debug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/phaser_tunnel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Screen Shots/rotozoomer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/toc.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/hellophaser.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/hellophaser/phaser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/images/cloneFrom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/images/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/images/editor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/images/start.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/baddie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/diamond.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/dude.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/firstaid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/platform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/sky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/assets/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/phaser_tutorial_02.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/part9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/screen shots/tutorial_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/03 Using Phaser with TypeScript/screen shots/part9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets/level1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets/loader.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets/simon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets/title.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/assets/titlepage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/screen shots/part1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/screen shots/part2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/screen shots/part3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/screen shots/part3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/screen shots/part4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/screen shots/part5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/visualstudio_project.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/images/cloneFrom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/images/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/images/editor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/images/start.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/baddie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/diamond.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/dude.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/firstaid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/platform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/sky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/assets/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/phaser_tutorial_02.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/tutorial_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/selector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/water.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/baddie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/diamond.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/dude.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/firstaid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/platform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/sky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/assets/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/civ.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.github/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/CODE_OF_CONDUCT.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/DOCS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/creature.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/creature.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/creature.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/p2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/p2.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/p2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-arcade-physics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-arcade-physics.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-arcade-physics.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-creature.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-creature.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-creature.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-minimum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-minimum.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-minimum.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-no-physics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-no-physics.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-no-physics.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-split.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-split.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/phaser-split.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/pixi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/pixi.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/custom/pixi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/phaser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/phaser.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/build/phaser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/CreatureShader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/EarCut.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/EventTarget.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.BaseTexture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasBuffer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasGraphics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasMaskManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasRenderer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasTinter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.ComplexPrimitiveShader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.DisplayObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.DisplayObjectContainer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.FilterTexture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.Phaser.GraphicsData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.PixiFastShader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.PixiShader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.PrimitiveShader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.Sprite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.StripShader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.Texture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLBlendModeManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLFastSpriteBatch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLFilterManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLRenderer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.AnimationManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.AnimationParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ArraySet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ArrayUtils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.AudioSprite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.BitmapData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.BitmapText.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Bullet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Camera.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Canvas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.CanvasPool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Circle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Color.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Angle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.AutoCull.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Bounds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.BringToTop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Core.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Crop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Delta.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Destroy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.FixedToCamera.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Health.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.InCamera.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.InWorld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.InputEnabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.LifeSpan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.LoadTexture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Overlap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.PhysicsBody.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.ScaleMinMax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Smoothed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Creature.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.DOM.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Device.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.DeviceButton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Back.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Bounce.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Circular.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Cubic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Elastic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Exponential.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Linear.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Quadratic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Quartic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Quintic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Sinusoidal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Ellipse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.FlexGrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.FlexLayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.FrameData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Game.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.GameObjectCreator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.GameObjectFactory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Gamepad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Graphics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Hermite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ImageCollection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Input.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.InputHandler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Key.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.KeyCode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Keyboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.LinkedList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Loader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.LoaderParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.MSPointer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Math.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Matrix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Mouse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Net.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particles.Arcade.Emitter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particles.Arcade.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Path.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PathFollower.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PathPoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Arcade.Body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Arcade.TilemapCollision.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Arcade.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.AABB.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.Body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.Circle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.Tile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.Body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.BodyDebug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.CollisionGroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.ContactMaterial.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.DistanceConstraint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.FixtureList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.GearConstraint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.InversePointProxy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.LockConstraint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.Material.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.PointProxy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.PrismaticConstraint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.RevoluteConstraint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.RotationalSpring.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.Spring.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Plugin.PathManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Plugin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PluginManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Point.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Pointer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PointerMode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Polygon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.QuadTree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RandomDataGenerator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Rectangle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RenderTexture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RequestAnimationFrame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RetroFont.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Rope.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RoundedRectangle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ScaleManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Signal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SignalBinding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SinglePad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Sound.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SoundManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Sprite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SpriteBatch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Stage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.State.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.StateManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TileSprite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tilemap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TilemapLayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TilemapParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tileset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Time.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Timer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TimerEvent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Touch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tween.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TweenData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TweenManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Utils.Debug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Utils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Weapon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.World.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PhaserGlobal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/classes.list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/global.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/namespaces.list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts-src/misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts-src/toc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts/bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/styles/site.phaser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/BinarySerpents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/BlurX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/BlurY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/CausticLight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/CheckerWave.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/ColorBars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/Fire.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/Gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/HueRotate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/LazerBeam.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/LightBeam.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/Marble.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/Pixelate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/Plasma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/SampleFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/filters/Tunnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Asset Pack JSON Format/assetPack.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Flash to Phaser JSFL/Flash to Phaser.jsfl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/IE9 Polyfill/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/IE9 Polyfill/dataview-polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/IE9 Polyfill/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/IE9/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/IE9/xhrLoadWithXDR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Migration Guide.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/PhysicsEditor Exporter/exporter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/PhysicsEditor Exporter/phaser.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Basic/Boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Basic/Game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Basic/MainMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Basic/Preloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Basic/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/css/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/src/Boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/src/Game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/src/MainMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Full Screen Mobile/src/Preloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/src/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/RequireJS/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Responsive/Boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Responsive/Game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Responsive/MainMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Responsive/Preloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Responsive/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/Webpack/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/.npmrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/ionic.config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/app/app.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/app/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/app/app.module.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/app/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/app/main.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/game/game.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/pages/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/pages/home/home.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/pages/home/home.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/service-worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/src/theme/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/tslint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/Project Templates/ionic-example/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/WebGL Tilemap Renderer progress.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/custom-builds.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/export.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.AbstractFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.AjaxRequest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.AlphaMaskFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.AsciiFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.AssetLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.AtlasLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.BaseTexture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.BitmapFontLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.BitmapText.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.BlurFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.BlurXFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.BlurYFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.CanvasBuffer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.CanvasGraphics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.CanvasMaskManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.CanvasRenderer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.CanvasTinter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Circle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.ColorMatrixFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.ColorStepFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.ComplexPrimitiveShader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.ConvolutionFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.CrossHatchFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.DisplacementFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.DisplayObject.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.DisplayObjectContainer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.DotScreenFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Ellipse.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.EventTarget.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.FilterBlock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.FilterTexture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Graphics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.GrayFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.ImageLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.InteractionData.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.InteractionManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.InvertFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.JsonLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Matrix.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.MovieClip.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.NoiseFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.NormalMapFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.PixelateFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.PixiFastShader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.PixiShader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Point.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.PolyK.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Polygon.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.PrimitiveShader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.RGBSplitFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Rectangle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.RenderTexture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Rope.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.SepiaFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.SmartBlurFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.SpineLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Sprite.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.SpriteBatch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.SpriteSheetLoader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Stage.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Strip.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.StripShader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Text.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.Texture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.TilingSprite.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.TiltShiftFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.TiltShiftXFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.TiltShiftYFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.TwistFilter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLBlendModeManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLFastSpriteBatch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLFilterManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLGraphics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLMaskManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLRenderer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLShaderManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLSpriteBatch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.WebGLStencilManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/PIXI.autoDetectRenderer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Animation.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.AnimationManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.AnimationParser.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.ArrayList.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.AudioSprite.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.BitmapData.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.BitmapText.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Button.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Cache.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Camera.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Canvas.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Circle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Color.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Device.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Easing.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Ellipse.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Events.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Filter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.FlexGrid.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.FlexLayer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Frame.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.FrameData.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Game.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.GameObjectCreator.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.GameObjectFactory.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Gamepad.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.GamepadButton.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Graphics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Group.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Image.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Input.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.InputHandler.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Key.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Keyboard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Line.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.LinkedList.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Loader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.LoaderParser.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.MSPointer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Math.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Mouse.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Net.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Particle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Particles.Arcade.Emitter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Particles.Arcade.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Particles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Arcade.Body.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Arcade.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Ninja.AABB.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Ninja.Body.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Ninja.Circle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Ninja.Tile.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.Ninja.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.Body.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.BodyDebug.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.CollisionGroup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.ContactMaterial.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.DistanceConstraint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.FixtureList.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.GearConstraint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.InversePointProxy.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.LockConstraint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.Material.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.PointProxy.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.PrismaticConstraint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.RevoluteConstraint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.RotationalSpring.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.Spring.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.P2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Physics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Plugin.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.PluginManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Point.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Pointer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Polygon.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.QuadTree.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.RandomDataGenerator.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Rectangle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.RenderTexture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.RequestAnimationFrame.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.RetroFont.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Rope.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.ScaleManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Signal.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.SignalBinding.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.SinglePad.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Sound.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.SoundManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Sprite.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.SpriteBatch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Stage.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.State.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.StateManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Text.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Tile.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.TileSprite.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Tilemap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.TilemapLayer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.TilemapParser.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Tileset.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Time.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Timer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.TimerEvent.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Touch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Tween.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.TweenManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Utils.Debug.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.Utils.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/output/Phaser.World.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/project/Phaser Doc Gen.dsk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/project/Phaser Doc Gen.ppd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/project/Phaser Doc Gen.ppj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/project/Phaser Doc Gen.ppw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/project/Phaser Doc Gen.ppx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/ClassDesc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Constant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Exclude.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Parameter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/PhaserDocGen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Processor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/Property.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/src/ReturnType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/wip/gen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/wip/json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/wip/output.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docgen/wip/process.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/scripts-src/.eslintrc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/scripts-src/misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/scripts-src/toc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/scripts/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/scripts/bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/static/styles/site.phaser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/augments.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/container.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/details.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/example.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/examples.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/exceptions.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/fires.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/footer.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/layout.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/mainpage.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/members.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/method.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/navbar-nav-extra.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/navbar.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/params.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/properties.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/quicksearch.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/returns.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/searchResults.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/sections.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/source.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/toc-container.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/tutorial.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/docstrap-master/template/tmpl/type.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/jsdoc Export JSON/template/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/release-names.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/hellophaser/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/01 Getting Started/part8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/part9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/02 Making your first game/tutorial.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/04 Advanced TypeScript Projects/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/01 Comenzando/part8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/js/phaser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/part9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/tutorials/Spanish/02 Creando tu primer juego/tutorial.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/resources/zwoptex-phaser.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/Intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/Outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/Phaser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/PhaserGlobal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/PixiDefaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/Animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/AnimationManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/AnimationParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/Frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/FrameData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/creature/CreatureMeshBone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/animation/creature/gl-matrix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Camera.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/FlexGrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/FlexLayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/PluginManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/ScaleManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Signal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/SignalBinding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/Stage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/State.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/StateManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/core/World.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/BitmapData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/BitmapText.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Creature.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/GameObjectCreator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/GameObjectFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Graphics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/GraphicsData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Particle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/RenderTexture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/RetroFont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Rope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Sprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/SpriteBatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/TileSprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/Video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Angle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/AutoCull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Bounds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/BringToTop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Crop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Delta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Destroy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/FixedToCamera.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Health.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/InCamera.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/InWorld.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/InputEnabled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/LifeSpan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/LoadTexture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Overlap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/PhysicsBody.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Reset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/ScaleMinMax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/gameobjects/components/Smoothed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Circle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Ellipse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Hermite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Matrix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Point.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Polygon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/Rectangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/geom/RoundedRectangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/DeviceButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Gamepad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/InputHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Key.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Keyboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/MSPointer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Mouse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Pointer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/SinglePad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/input/Touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/loader/Cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/loader/Loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/loader/LoaderParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/math/Math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/math/QuadTree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/math/RandomDataGenerator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/net/Net.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/particles/Particles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/particles/arcade/ArcadeParticles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/particles/arcade/Emitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/Physics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/arcade/Body.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/arcade/TilemapCollision.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/arcade/World.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/ninja/AABB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/ninja/Body.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/ninja/Circle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/ninja/Tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/ninja/World.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/Body.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/BodyDebug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/CollisionGroup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/ContactMaterial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/DistanceConstraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/FixtureList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/GearConstraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/InversePointProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/LockConstraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/Material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/PointProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/PrismaticConstraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/RevoluteConstraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/RotationalSpring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/Spring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/World.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/physics/p2/p2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/Intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/Outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/Pixi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/display/DisplayObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/display/DisplayObjectContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/display/Sprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/canvas/CanvasGraphics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/canvas/CanvasRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/canvas/utils/CanvasBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/canvas/utils/CanvasMaskManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/canvas/utils/CanvasTinter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/WebGLRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/shaders/ComplexPrimitiveShader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/shaders/PixiFastShader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/shaders/PixiShader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/shaders/PrimitiveShader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/shaders/StripShader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/FilterTexture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLBlendModeManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLFilterManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLGraphics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLMaskManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLShaderManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLShaderUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLSpriteBatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/renderers/webgl/utils/WebGLStencilManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/textures/BaseTexture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/pixi/textures/Texture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/path/EventTarget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/path/Path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/path/PathFollower.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/path/PathManagerPlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/path/PathPoint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/weapon/Bullet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/plugins/weapon/WeaponPlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/sound/AudioSprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/sound/Sound.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/sound/SoundManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/Color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/Create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/DOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/Debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/Net.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/ScaleManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/SoundManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/TileSprite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/stubs/TweenManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tilemap/ImageCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tilemap/Tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tilemap/Tilemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tilemap/TilemapLayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tilemap/TilemapParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tilemap/Tileset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/time/Time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/time/Timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/time/TimerEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tween/Easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tween/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tween/TweenData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/tween/TweenManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/ArraySet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/ArrayUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/Canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/CanvasPool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/Color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/DOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/Debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/Device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/EarCut.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/LinkedList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/RequestAnimationFrame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/src/utils/Utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/buildtsdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdoc-conf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdoc-plugins/filterpixi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdoc-plugins/namealias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdoc-plugins/p2completeclass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdoc-plugins/proptomember.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdoc-plugins/shortlinks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/jsdocexportjson-conf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/animation.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/bitmapdata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/bitmaptext.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/color.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/color.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/components.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/core.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/create.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/create.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/creature-global.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/creature.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/debug.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/debug.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/dom.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/dom.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/flexgrid.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/gameobjects.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/gamepad.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/geom.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/graphics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/input.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/intro.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/keyboard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/loader.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/math.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/net.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/net.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/outro.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/p2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/particles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/particles.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/phaser.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/physics.arcade.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/physics.arcade.tilemaps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/physics.arcade.weapon.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/physics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/physics.ninja.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/physics.p2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/pixi-intro.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/pixi-main.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/pixi-outro.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/pixidefs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/rendertexture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/retrofont.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/rope.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/scale.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/scale.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/sound.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/sound.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/system.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/text.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/tilemaps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/tilesprite.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/tilesprite.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/time.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/tweens.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/tweens.stub.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/utils.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/manifests/video.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/buildtsdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/clean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/connect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/copy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/gitclone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/jsdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/jshint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/replace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/ts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/options/uglify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/pixidoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/tasks/yuidoc-to-jsdoc/converter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/box2d.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/p2.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/phaser.comments.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/phaser.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/phaser_box2d.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/pixi.comments.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/pixi.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/tslint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/typescript/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/yarn.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/board.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/part9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuto/tuto1plat/tutorial.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="board.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part9.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>collect</find>
+      <find>animation</find>
+      <find>random</find>
+      <find>kill</find>
+      <find>stars</find>
+      <find>selec</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/part3.html" />
+        <option value="$PROJECT_DIR$/part4.html" />
+        <option value="$PROJECT_DIR$/tuto/tuto1plat/part9.html" />
+        <option value="$PROJECT_DIR$/tile.html" />
+        <option value="$PROJECT_DIR$/board.html" />
+        <option value="$PROJECT_DIR$/tile.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1381" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="civ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="civ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="civ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="civ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="" />
+      <created>1518589823489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518589823489</updated>
+      <workItem from="1518589824764" duration="6125000" />
+      <workItem from="1518607551382" duration="451000" />
+      <workItem from="1518715933875" duration="2632000" />
+      <workItem from="1518735425408" duration="319000" />
+      <workItem from="1518763112351" duration="7590000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17117000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1381" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="begining" />
+    <MESSAGE value="beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginning" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="55" lean-forward="false" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2.html" />
+    <entry file="file://$PROJECT_DIR$/part1.html" />
+    <entry file="file://$PROJECT_DIR$/part3.html" />
+    <entry file="file://$PROJECT_DIR$/part4.html" />
+    <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

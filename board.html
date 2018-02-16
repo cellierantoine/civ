@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Civ</title>
+        <script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js"></script>
+        <script src="tile.js"></script>
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+
+            function preload() {
+                game.load.image('background', 'assets/background.png');
+                game.load.image('grass', 'assets/grass.png');
+                game.load.image('water', 'assets/water.png');
+                game.load.image('selector', 'assets/selector.png');
+            }
+
+            var selector;
+            var sprite;
+            var ground = [];
+
+
+            function create() {
+                //SPRITE
+                game.add.sprite(0, 0, 'background');
+                for(let i=0; i<24; i++){
+                    ground.push(i);
+                    for(let j=0; j<22; j++){
+                        if(Math.random()>0.25) {
+                             sprite = game.add.sprite(i * 25, j * 25 + 50, 'grass');
+                        }else{
+                            sprite = game.add.sprite(i * 25, j * 25 + 50, 'water');
+                        }
+                        ground[i][j] = sprite;
+                    }
+                }
+
+                selector = game.add.sprite(0,0,null);
+
+                document.addEventListener("click", click);
+            }
+
+            function update() {
+
+            }
+
+            function click(event){
+                if(event.clientX < 600 && event.clientY > 50){
+                    selector.destroy();
+
+                    var x = event.clientX - event.clientX % 25;
+                    var y = event.clientY - event.clientY % 25;
+
+                    ground[x/25][y/25] = game.add.sprite(x, y, 'water');
+
+                   selector = game.add.sprite(x, y, 'selector');
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
