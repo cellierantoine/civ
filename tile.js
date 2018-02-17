@@ -11,35 +11,44 @@ function mapBeach(ground){
             }
         }
     }
+    for(let z=0; z<3; z++){
+        flood(ground)
+    }
 }
 
 function mapRiver(ground){
     for(let i=0; i<24; i++){
-        ground.push(i);
+        ground.push(new Array);
         for(let j=0; j<22; j++){
-            if(i+j > 19 && i+j < 25){
-                ground[i][j] = new Tile(i*25, j*25, 'water');
+            if(i+j > 20 && i+j < 24){
+                ground[i].push(new Tile(i*25, j*25, 'water'));
                 game.add.sprite(i * 25, j * 25 + 50, 'water');
             }else{
-                ground[i][j] = new Tile(i*25, j*25, 'grass');
+                ground[i].push(new Tile(i*25, j*25, 'grass'));
                 game.add.sprite(i * 25, j * 25 + 50, 'grass');
             }
         }
+    }
+    for(let z=0; z<3; z++){
+        flood(ground)
     }
 }
 
 function mapLake(ground){
     for(let i=0; i<24; i++){
-        ground.push(i);
+        ground.push(new Array);
         for(let j=0; j<22; j++){
             if(i+j > 19 && i+j < 25 && i < 15  && i > 7){
-                ground[i][j] = new Tile(i*25, j*25, 'water');
+                ground[i].push(new Tile(i*25, j*25, 'water'));
                 game.add.sprite(i * 25, j * 25 + 50, 'water');
             }else{
-                ground[i][j] = new Tile(i*25, j*25, 'grass');
+                ground[i].push(new Tile(i*25, j*25, 'grass'));
                 game.add.sprite(i * 25, j * 25 + 50, 'grass');
             }
         }
+    }
+    for(let z=0; z<3; z++){
+        flood(ground)
     }
 }
 

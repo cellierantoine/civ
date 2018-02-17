@@ -26,6 +26,7 @@
 
             var selector;
             var ground = [];
+            var start;
 
 
 
@@ -38,11 +39,17 @@
 
                 document.addEventListener("click", click);
 
+                //start time
+                start = game.time.now;
+                console.log(game);
 
             }
 
             function update() {
-
+                if(game.time.now > start+5000){
+                    flood(ground);
+                    start = game.time.now;
+                }
             }
 
             function click(event){
