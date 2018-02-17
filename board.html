@@ -14,7 +14,14 @@
         <script src="tile.js"></script>
         <script src="event.js"></script>
         <script type="text/javascript">
-            var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+            var TILE_SIZE = 32;
+            var TILE_ASPECT = 1;
+            var LEVEL_SIZE = 21;
+            var TOP_BAR_SIZE = 64;
+            var SIDE_BAR_SIZE = 200;
+
+
+            var game = new Phaser.Game(872, 736, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 
             function preload() {
@@ -22,6 +29,7 @@
                 game.load.image('grass', 'assets/grass.png');
                 game.load.image('water', 'assets/water.png');
                 game.load.image('selector', 'assets/selector.png');
+                game.load.image('house', 'assets/house.png');
             }
 
             var selector;
@@ -41,23 +49,22 @@
 
                 //start time
                 start = game.time.now;
-                console.log(game);
 
             }
 
             function update() {
                 if(game.time.now > start+5000){
-                    flood(ground);
+                    //flood(ground);
                     start = game.time.now;
                 }
             }
 
             function click(event){
-                if(event.clientX < 600 && event.clientY > 50){
+                if(event.clientX < 872- SIDE_BAR_SIZE && event.clientY > TOP_BAR_SIZE){
                     selector.destroy();
 
-                    var x = event.clientX - event.clientX % 25;
-                    var y = event.clientY - event.clientY % 25;
+                    var x = event.clientX - event.clientX % TILE_SIZE;
+                    var y = event.clientY - event.clientY % TILE_SIZE;
 
                    selector = game.add.sprite(x, y, 'selector');
                 }

@@ -22,4 +22,5 @@ function flood(ground){
     for(let x=0; x<flood.length; x++){
         ground[flood[x][0]][flood[x][1]].updateTerrainType('water');
     }
+    game.add.sprite(10*TILE_SIZE, 10*TILE_SIZE + TOP_BAR_SIZE, 'house');
 }
