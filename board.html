@@ -23,7 +23,7 @@
             var SIDE_BAR_SIZE = 200;
 
 
-            var game = new Phaser.Game(872, 736, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+            var game = new Phaser.Game(1072, 736, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 
             function preload() {
@@ -39,6 +39,14 @@
             var start;
             var selector;
 
+            var x;
+            var y;
+
+            var text;
+            var style;
+
+            var menu = [[701,108],[777,108],[701,183],[777,183],[701,259],[777,259],[701,334],[777,334],[701,410],[777,410],[701,485],[777,485]];
+
 
 
             function create() {
@@ -50,6 +58,7 @@
                 selector = new Selector();
 
                 document.addEventListener("click", function(event){ click(event, ground, selector); });
+                document.addEventListener("mousemove", hover);
 
                 //start time
                 start = game.time.now;
@@ -60,6 +69,10 @@
                 sprite.height = sprite.height*2;
                 sprite.smoothed = false;
 
+                style = { font: "65px Arial", fill: "#ff0044", align: "center" };
+                text = game.add.text(880, 200, 'coucou', style);
+
+
             }
 
             function update() {
@@ -67,6 +80,13 @@
                     //flood(ground);
                     start = game.time.now;
                 }
+
+                if(x > 701 && x < 701+67 && y > 108 && y < 108+67){
+                    text.destroy();
+                    text = game.add.text(880, 200, 'MAISON', style);
+                }
+
+
             }
 
             function click(event, ground, selector){
@@ -75,6 +95,11 @@
                 }else if(selector.tileSelected != null && event.clientX > 701 && event.clientX < 701+67 && event.clientY > 108 && event.clientY < 108+67){
                     selector.tileSelected.buildHouse();
                 }
+            }
+
+            function hover(event){
+                x = event.clientX;
+                y = event.clientY;
             }
 
 
