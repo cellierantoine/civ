@@ -46,6 +46,24 @@ function mapLake(ground){
     }
 }
 
+class Selector{
+    constructor(){
+        this.sprite = game.add.sprite(0,0,null);
+        this.tileSelected = null;
+    }
+
+    moveSelector(event, ground){
+        this.sprite.destroy();
+
+        let x = event.clientX - event.clientX % TILE_SIZE;
+        let y = event.clientY - event.clientY % TILE_SIZE;
+
+        this.tileSelected = ground[x/TILE_SIZE][y/TILE_SIZE];
+
+        this.sprite = game.add.sprite(x, y, 'selector');
+    }
+}
+
 
 
 class Tile {
@@ -54,12 +72,18 @@ class Tile {
         this.y = y;
         this.terrainType = terrainType;
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, terrainType);
+        this.resource = null;
+        this.building = null;
     }
 
     updateTerrainType(terrainType){
         this.terrainType = terrainType;
         this.sprite.destroy();
         this.sprite = game.add.sprite(this.x*TILE_SIZE, this.y*TILE_SIZE + TOP_BAR_SIZE, terrainType);
+    }
+
+    buildHouse(){
+        this.building = new House(this.x, this.y);
     }
 
 }

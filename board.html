@@ -13,6 +13,8 @@
     <body>
         <script src="tile.js"></script>
         <script src="event.js"></script>
+        <script src="resource.js"></script>
+        <script src="construction.js"></script>
         <script type="text/javascript">
             var TILE_SIZE = 32;
             var TILE_ASPECT = 1;
@@ -32,9 +34,10 @@
                 game.load.image('house', 'assets/house.png');
             }
 
-            var selector;
+
             var ground = [];
             var start;
+            var selector;
 
 
 
@@ -43,12 +46,19 @@
                 game.add.sprite(0, 0, 'background');
                 mapBeach(ground);
 
-                selector = game.add.sprite(0,0,null);
+                //SELECTOR
+                selector = new Selector();
 
-                document.addEventListener("click", click);
+                document.addEventListener("click", function(event){ click(event, ground, selector); });
 
                 //start time
                 start = game.time.now;
+
+                let sprite = game.add.sprite(701, 108, 'house');
+                console.log(sprite.width +" // "+sprite.height)
+                sprite.width = sprite.width*2;
+                sprite.height = sprite.height*2;
+                sprite.smoothed = false;
 
             }
 
@@ -59,14 +69,11 @@
                 }
             }
 
-            function click(event){
+            function click(event, ground, selector){
                 if(event.clientX < 872- SIDE_BAR_SIZE && event.clientY > TOP_BAR_SIZE){
-                    selector.destroy();
-
-                    var x = event.clientX - event.clientX % TILE_SIZE;
-                    var y = event.clientY - event.clientY % TILE_SIZE;
-
-                   selector = game.add.sprite(x, y, 'selector');
+                    selector.moveSelector(event, ground);
+                }else if(selector.tileSelected != null && event.clientX > 701 && event.clientX < 701+67 && event.clientY > 108 && event.clientY < 108+67){
+                    selector.tileSelected.buildHouse();
                 }
             }
 
