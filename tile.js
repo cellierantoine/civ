@@ -58,7 +58,7 @@ class Selector{
         let x = event.clientX - event.clientX % TILE_SIZE;
         let y = event.clientY - event.clientY % TILE_SIZE;
 
-        this.tileSelected = ground[x/TILE_SIZE][y/TILE_SIZE];
+        this.tileSelected = ground[x/TILE_SIZE][(y - TOP_BAR_SIZE)/TILE_SIZE];
 
         this.sprite = game.add.sprite(x, y, 'selector');
     }
@@ -71,7 +71,7 @@ class Selector{
         if(terrainConstruction != null) {
             console.log('COUCOUCOCUCOCUOCUCOUCOUCOCUOCUC');
         }else if(terrainType == 'grass'){
-            buttons[0].updateButton('house', "maisonGrass");
+            buttons[0].updateButton('house', "maisonGrass", selector.tileSelected.buildHouse);
         }else if(terrainType == 'water'){
             buttons[3].updateButton('house', "maisonWater");
         }
@@ -116,18 +116,22 @@ class Button{
         this.x = x;
         this.y = y;
         this.sprite = game.add.sprite(0, 0, null);
+        this.act = '';
         this.text = '';
         this.displayer = game.add.text(700, 600, '', this.style);
         this.style = { font: "12px Arial", fill: "#000000", align: "center" };
     }
 
-    updateButton(sprite, text) {
+    updateButton(sprite, text, act) {
         this.sprite.destroy();
         this.sprite = game.add.sprite(this.x, this.y, sprite);
         this.sprite.width = this.sprite.width*2;
         this.sprite.height = this.sprite.height*2;
         this.sprite.smoothed = false;
+        
         this.text = text;
+        
+        this.act = act;
     }
 
     hoverText(){
