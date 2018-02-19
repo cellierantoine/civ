@@ -62,6 +62,29 @@ class Selector{
 
         this.sprite = game.add.sprite(x, y, 'selector');
     }
+
+    displaySideMenu(terrainType, terrainConstruction){
+        for(let i = 0; i<buttons.length; i++){
+            buttons[i].sprite.destroy();
+            buttons[i].displayer.destroy();
+        }
+        if(terrainConstruction != null) {
+            console.log('COUCOUCOCUCOCUOCUCOUCOUCOCUOCUC');
+        }else if(terrainType == 'grass'){
+            buttons[0].updateButton('house', "maisonGrass");
+        }else if(terrainType == 'water'){
+            buttons[3].updateButton('house', "maisonWater");
+        }
+    }
+
+    hoverSideMenu(x, y){
+        if(x > buttons[0].x && x < buttons[0].x+68 && y > buttons[0].y && y < buttons[0].y+68){
+            console.log('btn1');
+        }else if(x > buttons[1].x && x < buttons[1].x+68 && y > buttons[1].y && y < buttons[1].y+68) {
+            console.log('btn2');
+        }
+    }
+
 }
 
 
@@ -77,8 +100,8 @@ class Tile {
     }
 
     updateTerrainType(terrainType){
-        this.terrainType = terrainType;
         this.sprite.destroy();
+        this.terrainType = terrainType;
         this.sprite = game.add.sprite(this.x*TILE_SIZE, this.y*TILE_SIZE + TOP_BAR_SIZE, terrainType);
     }
 
@@ -88,5 +111,29 @@ class Tile {
 
 }
 
+class Button{
+    constructor(x, y){
+        this.x = x;
+        this.y = y;
+        this.sprite = game.add.sprite(0, 0, null);
+        this.text = '';
+        this.displayer = game.add.text(700, 600, '', this.style);
+        this.style = { font: "12px Arial", fill: "#000000", align: "center" };
+    }
+
+    updateButton(sprite, text) {
+        this.sprite.destroy();
+        this.sprite = game.add.sprite(this.x, this.y, sprite);
+        this.sprite.width = this.sprite.width*2;
+        this.sprite.height = this.sprite.height*2;
+        this.sprite.smoothed = false;
+        this.text = text;
+    }
+
+    hoverText(){
+        this.displayer.destroy();
+        this.displayer = game.add.text(700, 600, this.text, this.style);
+    }
+}
 
 

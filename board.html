@@ -42,10 +42,10 @@
             var x;
             var y;
 
-            var text;
-            var style;
+
 
             var menu = [[701,108],[777,108],[701,183],[777,183],[701,259],[777,259],[701,334],[777,334],[701,410],[777,410],[701,485],[777,485]];
+            var buttons = [];
 
 
 
@@ -57,20 +57,17 @@
                 //SELECTOR
                 selector = new Selector();
 
+                //LISTENERS
                 document.addEventListener("click", function(event){ click(event, ground, selector); });
                 document.addEventListener("mousemove", hover);
 
-                //start time
+                //TIME
                 start = game.time.now;
 
-                let sprite = game.add.sprite(701, 108, 'house');
-                console.log(sprite.width +" // "+sprite.height)
-                sprite.width = sprite.width*2;
-                sprite.height = sprite.height*2;
-                sprite.smoothed = false;
-
-                style = { font: "65px Arial", fill: "#ff0044", align: "center" };
-                text = game.add.text(880, 200, 'coucou', style);
+                //BUTTONS
+                for(let i = 0; i<menu.length; i++){
+                    buttons.push(new Button(menu[i][0], menu[i][1]));
+                }
 
 
             }
@@ -81,25 +78,24 @@
                     start = game.time.now;
                 }
 
-                if(x > 701 && x < 701+67 && y > 108 && y < 108+67){
-                    text.destroy();
-                    text = game.add.text(880, 200, 'MAISON', style);
+                if(x>692 && x<853 && y>99 && y<561){
+                    selector.hoverSideMenu(x, y);
                 }
-
-
             }
 
             function click(event, ground, selector){
-                if(event.clientX < 872- SIDE_BAR_SIZE && event.clientY > TOP_BAR_SIZE){
+                console.log(event.pageX+" / "+event.pageY);
+                if(event.pageX < 872- SIDE_BAR_SIZE && event.pageY > TOP_BAR_SIZE){
                     selector.moveSelector(event, ground);
-                }else if(selector.tileSelected != null && event.clientX > 701 && event.clientX < 701+67 && event.clientY > 108 && event.clientY < 108+67){
-                    selector.tileSelected.buildHouse();
+                    selector.displaySideMenu(selector.tileSelected.terrainType, selector.tileSelected.building);
+                }else if(selector.tileSelected != null && event.pageX > 701 && event.pageX < 769 && event.pageY > 108 && event.pageY < 175){
+
                 }
             }
 
             function hover(event){
-                x = event.clientX;
-                y = event.clientY;
+                x = event.pageX;
+                y = event.pageY;
             }
 
 
