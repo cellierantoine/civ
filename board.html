@@ -89,8 +89,7 @@
                     selector.moveSelector(event, ground);
                     selector.displaySideMenu(selector.tileSelected.terrainType, selector.tileSelected.building);
                 }else if(selector.tileSelected != null && event.pageX > 701 && event.pageX < 769 && event.pageY > 108 && event.pageY < 175){
-					console.log("apparition magique d'une cabane club med");
-					buttons[0].act;
+					buttons[0].act.apply(selector.tileSelected);
                 }
             }
 
@@ -104,3 +103,4 @@
 
     </body>
 </html>
+
