@@ -20,6 +20,6 @@ function flood(ground){
         }
     }
     for(let x=0; x<flood.length; x++){
-        ground[flood[x][0]][flood[x][1]].updateTerrainType('water');
+        ground[flood[x][0]][flood[x][1]].updateTerrainType('water', 'water');
     }
 }

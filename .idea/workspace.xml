@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Gimp/TREE.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Gimp/background.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Gimp/farm.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Gimp/mine.xcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/farm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/grass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/house.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/tree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/water.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board.html" afterPath="$PROJECT_DIR$/board.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.js" afterPath="$PROJECT_DIR$/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource.js" afterPath="$PROJECT_DIR$/resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideMenuButtons.js" afterPath="$PROJECT_DIR$/sideMenuButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tile.js" afterPath="$PROJECT_DIR$/tile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +35,8 @@
       <file leaf-file-name="board.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/board.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="104" column="143" lean-forward="false" selection-start-line="104" selection-start-column="143" selection-end-line="104" selection-end-column="143" />
               <folding />
             </state>
           </provider>
@@ -32,9 +45,12 @@
       <file leaf-file-name="tile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="80" column="48" lean-forward="true" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="472">
+              <caret line="126" column="28" lean-forward="false" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+              <folding>
+                <element signature="n#Tile#0" expanded="false" />
+                <element signature="n#Button#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +58,38 @@
       <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="construction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/construction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,6 +117,23 @@
       <find>house</find>
       <find>flood</find>
       <find>[2]</find>
+      <find>u</find>
+      <find>up</find>
+      <find>upd</find>
+      <find>updat</find>
+      <find>update</find>
+      <find>updateT</find>
+      <find>updateTer</find>
+      <find>updateTerr</find>
+      <find>updateTerrai</find>
+      <find>updateTerrain</find>
+      <find>updateTerrainT</find>
+      <find>r</find>
+      <find>re</find>
+      <find>resso</find>
+      <find>ressour</find>
+      <find>ressourc</find>
+      <find>ressource</find>
     </findStrings>
     <replaceStrings>
       <replace>[11]</replace>
@@ -88,6 +151,7 @@
         <option value="$PROJECT_DIR$/tile.html" />
         <option value="$PROJECT_DIR$/event.js" />
         <option value="$PROJECT_DIR$/construction.js" />
+        <option value="$PROJECT_DIR$/resource.js" />
         <option value="$PROJECT_DIR$/sideMenuButtons.js" />
         <option value="$PROJECT_DIR$/board.html" />
         <option value="$PROJECT_DIR$/tile.js" />
@@ -269,7 +333,7 @@
       <workItem from="1518991587556" duration="4075000" />
       <workItem from="1519023168187" duration="10958000" />
       <workItem from="1519145813764" duration="647000" />
-      <workItem from="1519158314025" duration="1868000" />
+      <workItem from="1519158314025" duration="7933000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1519031426539</created>
@@ -285,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519148687684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hover on button">
+      <created>1519160206208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519160206208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35264000" />
+    <option name="totallyTimeSpent" value="41329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1381" height="744" extended-state="6" />
@@ -298,6 +369,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -309,7 +381,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -324,11 +395,12 @@
     <MESSAGE value="beginning" />
     <MESSAGE value="interface" />
     <MESSAGE value="all buttons click" />
-    <option name="LAST_COMMIT_MESSAGE" value="all buttons click" />
+    <MESSAGE value="hover on button" />
+    <option name="LAST_COMMIT_MESSAGE" value="hover on button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -512,42 +584,53 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event.js">
+    <entry file="file://$PROJECT_DIR$/resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/construction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/board.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="80" column="48" lean-forward="true" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
+        <state relative-caret-position="472">
+          <caret line="126" column="28" lean-forward="false" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+          <folding>
+            <element signature="n#Tile#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="104" column="143" lean-forward="false" selection-start-line="104" selection-start-column="143" selection-end-line="104" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>

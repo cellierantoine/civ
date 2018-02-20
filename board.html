@@ -32,16 +32,19 @@
                 game.load.image('selector', 'assets/selector.png');
 
                 //Tiles
-                game.load.image('grass', 'assets/grass.png');
-                game.load.image('water', 'assets/water.png');
+                game.load.image('grass1', 'assets/terrain/grass1.png');
+                game.load.image('grass2', 'assets/terrain/grass2.png');
+                game.load.image('grass3', 'assets/terrain/grass3.png');
+                game.load.image('water', 'assets/terrain/water.png');
 
                 //Building
-                game.load.image('house', 'assets/house.png');
-                game.load.image('farm', 'assets/farm.png');
-                game.load.image('mine', 'assets/mine.png');
+                game.load.image('house', 'assets/building/house.png');
+                game.load.image('farm', 'assets/building/farm.png');
+                game.load.image('mine', 'assets/building/mine.png');
 
                 //Resources
-                game.load.image('tree', 'assets/tree.png');
+                game.load.image('tree', 'assets/resources/tree.png');
+                game.load.image('rock', 'assets/resources/rock.png');
             }
 
 
@@ -63,7 +66,8 @@
                 //SPRITE
                 game.add.sprite(0, 0, 'background');
 
-                mapBeach(ground);
+                mapLake(ground);
+
 
                 //SELECTOR
                 selector = new Selector();
@@ -80,10 +84,7 @@
                     buttons.push(new Button(menu[i][0], menu[i][1]));
                 }
 
-                displayText = game.add.text(700, 600, "coucou", {font: "12px Arial", fill: "#000000", align: "center"});
-
-
-
+                displayText = game.add.text(700, 600, "", {font: "12px Arial", fill: "#000000", align: "center"});
             }
 
             function update() {
@@ -101,7 +102,7 @@
                 console.log(event.pageX+" / "+event.pageY);
                 if(event.pageX < 872- SIDE_BAR_SIZE && event.pageY > TOP_BAR_SIZE){
                     selector.moveSelector(event, ground);
-                    selector.displaySideMenu(selector.tileSelected.terrainType, selector.tileSelected.building);
+                    selector.displaySideMenu(selector.tileSelected.terrainType, selector.tileSelected.building, selector.tileSelected.resource);
                 }else if(selector.tileSelected != null && buttons[0].act!= null
                 && event.pageX > buttons[0].x && event.pageX < buttons[0].x+68
                 && event.pageY > buttons[0].y && event.pageY < buttons[0].y +68){

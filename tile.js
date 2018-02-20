@@ -3,9 +3,22 @@ function mapBeach(ground){
         ground.push(new Array);
         for(let j=0; j<LEVEL_SIZE; j++){
             if(i<2){
-                ground[i].push(new Tile(i, j, 'water'));
+                ground[i].push(new Tile(i, j, 'water', 'water'));
             }else{
-                ground[i].push(new Tile(i, j, 'grass'));
+                let a = Math.random(); //random terrain sprite
+                if(a<0.25) {
+                    ground[i].push(new Tile(i, j, 'grass', 'grass3'));
+                }else if(a<0.5){
+                    ground[i].push(new Tile(i, j, 'grass', 'grass1'));
+                }else{
+                    ground[i].push(new Tile(i, j, 'grass', 'grass2'));
+                }
+                let x = Math.random(); //random resources
+                if(x<0.15){
+                    ground[i][j].resourceWood();
+                }else if(x<0.20){
+                    ground[i][j].resourceRock();
+                }
             }
         }
     }
@@ -21,9 +34,22 @@ function mapRiver(ground){
         ground.push(new Array);
         for(let j=0; j<LEVEL_SIZE; j++){
             if(i+j > 20 && i+j < 24){
-                ground[i].push(new Tile(i, j, 'water'));
+                ground[i].push(new Tile(i, j, 'water', 'water'));
             }else{
-                ground[i].push(new Tile(i, j, 'grass'));
+                let a = Math.random();
+                if(a<0.25) {
+                    ground[i].push(new Tile(i, j, 'grass', 'grass3'));
+                }else if(a<0.5){
+                    ground[i].push(new Tile(i, j, 'grass', 'grass1'));
+                }else{
+                    ground[i].push(new Tile(i, j, 'grass', 'grass2'));
+                }
+                let x = Math.random(); //random resources
+                if(x<0.15){
+                    ground[i][j].resourceWood();
+                }else if(x<0.20){
+                    ground[i][j].resourceRock();
+                }
             }
         }
     }
@@ -37,9 +63,22 @@ function mapLake(ground){
         ground.push(new Array);
         for(let j=0; j<LEVEL_SIZE; j++){
             if(i+j > 19 && i+j < 25 && i < 15  && i > 7){
-                ground[i].push(new Tile(i, j, 'water'));
+                ground[i].push(new Tile(i, j, 'water', 'water'));
             }else{
-                ground[i].push(new Tile(i, j, 'grass'));
+                let a = Math.random();
+                if(a<0.25) {
+                    ground[i].push(new Tile(i, j, 'grass', 'grass3'));
+                }else if(a<0.5){
+                    ground[i].push(new Tile(i, j, 'grass', 'grass1'));
+                }else{
+                    ground[i].push(new Tile(i, j, 'grass', 'grass2'));
+                }
+                let x = Math.random(); //random resources
+                if(x<0.15){
+                    ground[i][j].resourceWood();
+                }else if(x<0.20){
+                    ground[i][j].resourceRock();
+                }
             }
         }
     }
@@ -65,7 +104,7 @@ class Selector{
         this.sprite = game.add.sprite(x, y, 'selector');
     }
 
-    displaySideMenu(terrainType, terrainConstruction){
+    displaySideMenu(terrainType, terrainConstruction, resource){
         for(let i = 0; i<buttons.length; i++){
             buttons[i].sprite.destroy();
             displayText.destroy();
@@ -77,9 +116,15 @@ class Selector{
         }else {
 
             if (terrainType == 'grass') {
-                menuGrass();
+                if(resource instanceof Wood){
+                    menuWood();
+                }else if(resource instanceof Rock){
+                    menuRock();
+                }else {
+                    menuGrass();
+                }
             } else if (terrainType == 'water') {
-
+                menuWater();
             }
         }
     }
@@ -117,19 +162,29 @@ class Selector{
 
 
 class Tile {
-    constructor(x, y, terrainType){
+    constructor(x, y, terrainType, terrainSprite){
         this.x = x;
         this.y = y;
         this.terrainType = terrainType;
-        this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, terrainType);
+        this.terrainSprite = terrainSprite;
+        this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, terrainSprite);
         this.resource = null;
         this.building = null;
     }
 
-    updateTerrainType(terrainType){
+    updateTerrainType(terrainType, terrainSprite){
         this.sprite.destroy();
         this.terrainType = terrainType;
-        this.sprite = game.add.sprite(this.x*TILE_SIZE, this.y*TILE_SIZE + TOP_BAR_SIZE, terrainType);
+        this.sprite = game.add.sprite(this.x*TILE_SIZE, this.y*TILE_SIZE + TOP_BAR_SIZE, terrainSprite);
+    }
+
+    //Resource methods
+    resourceRock(){
+        this.resource = new Rock(this.x, this.y);
+    }
+
+    resourceWood(){
+        this.resource = new Wood(this.x, this.y);
     }
 
     //Build methods
