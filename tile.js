@@ -9,6 +9,8 @@ function mapBeach(ground){
             }
         }
     }
+
+
     for(let z=0; z<3; z++){
         flood(ground)
     }
@@ -68,12 +70,17 @@ class Selector{
             buttons[i].sprite.destroy();
             buttons[i].displayer.destroy();
         }
+
+        //Construction menu
         if(terrainConstruction != null) {
-            console.log('COUCOUCOCUCOCUOCUCOUCOUCOCUOCUC');
-        }else if(terrainType == 'grass'){
-            buttons[0].updateButton('house', "maisonGrass", selector.tileSelected.buildHouse);
-        }else if(terrainType == 'water'){
-            buttons[3].updateButton('house', "maisonWater");
+            menuReset();
+        }else {
+
+            if (terrainType == 'grass') {
+                menuGrass();
+            } else if (terrainType == 'water') {
+
+            }
         }
     }
 
@@ -105,8 +112,17 @@ class Tile {
         this.sprite = game.add.sprite(this.x*TILE_SIZE, this.y*TILE_SIZE + TOP_BAR_SIZE, terrainType);
     }
 
+    //Build methods
     buildHouse(){
         this.building = new House(this.x, this.y);
+    }
+
+    buildFarm(){
+        this.building = new Farm(this.x, this.y);
+    }
+
+    buildMine(){
+        this.building = new Mine(this.x, this.y);
     }
 
 }
@@ -116,19 +132,20 @@ class Button{
         this.x = x;
         this.y = y;
         this.sprite = game.add.sprite(0, 0, null);
-        this.act = '';
+        this.act = null;
         this.text = '';
         this.displayer = game.add.text(700, 600, '', this.style);
         this.style = { font: "12px Arial", fill: "#000000", align: "center" };
     }
 
-    updateButton(sprite, text, act) {
+    updateButton(sprite, text, act = null) {
         this.sprite.destroy();
-        this.sprite = game.add.sprite(this.x, this.y, sprite);
-        this.sprite.width = this.sprite.width*2;
-        this.sprite.height = this.sprite.height*2;
-        this.sprite.smoothed = false;
-        
+        if(sprite != -1) {
+            this.sprite = game.add.sprite(this.x, this.y, sprite);
+            this.sprite.width = this.sprite.width * 2;
+            this.sprite.height = this.sprite.height * 2;
+            this.sprite.smoothed = false;
+        }
         this.text = text;
         
         this.act = act;

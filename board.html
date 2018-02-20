@@ -15,6 +15,7 @@
         <script src="event.js"></script>
         <script src="resource.js"></script>
         <script src="construction.js"></script>
+        <script src="sideMenuButtons.js"></script>
         <script type="text/javascript">
             var TILE_SIZE = 32;
             var TILE_ASPECT = 1;
@@ -28,10 +29,19 @@
 
             function preload() {
                 game.load.image('background', 'assets/background.png');
+                game.load.image('selector', 'assets/selector.png');
+
+                //Tiles
                 game.load.image('grass', 'assets/grass.png');
                 game.load.image('water', 'assets/water.png');
-                game.load.image('selector', 'assets/selector.png');
+
+                //Building
                 game.load.image('house', 'assets/house.png');
+                game.load.image('farm', 'assets/farm.png');
+                game.load.image('mine', 'assets/mine.png');
+
+                //Resources
+                game.load.image('tree', 'assets/tree.png');
             }
 
 
@@ -52,7 +62,10 @@
             function create() {
                 //SPRITE
                 game.add.sprite(0, 0, 'background');
+
                 mapBeach(ground);
+
+                game.add.sprite(300, 300, 'tree');
 
                 //SELECTOR
                 selector = new Selector();
@@ -68,6 +81,7 @@
                 for(let i = 0; i<menu.length; i++){
                     buttons.push(new Button(menu[i][0], menu[i][1]));
                 }
+
 
 
             }
@@ -88,8 +102,54 @@
                 if(event.pageX < 872- SIDE_BAR_SIZE && event.pageY > TOP_BAR_SIZE){
                     selector.moveSelector(event, ground);
                     selector.displaySideMenu(selector.tileSelected.terrainType, selector.tileSelected.building);
-                }else if(selector.tileSelected != null && event.pageX > 701 && event.pageX < 769 && event.pageY > 108 && event.pageY < 175){
+                }else if(selector.tileSelected != null && buttons[0].act!= null
+                && event.pageX > buttons[0].x && event.pageX < buttons[0].x+68
+                && event.pageY > buttons[0].y && event.pageY < buttons[0].y +68){
 					buttons[0].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[1].act!= null
+                && event.pageX > buttons[1].x && event.pageX < buttons[1].x+68
+                && event.pageY > buttons[1].y && event.pageY < buttons[1].y +68){
+                    buttons[1].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[2].act!= null
+                && event.pageX > buttons[2].x && event.pageX < buttons[2].x+68
+                && event.pageY > buttons[2].y && event.pageY < buttons[2].y +68){
+                    buttons[2].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[3].act!= null
+                    && event.pageX > buttons[3].x && event.pageX < buttons[3].x+68
+                    && event.pageY > buttons[3].y && event.pageY < buttons[3].y +68){
+                    buttons[3].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[4].act!= null
+                    && event.pageX > buttons[4].x && event.pageX < buttons[4].x+68
+                    && event.pageY > buttons[4].y && event.pageY < buttons[4].y +68){
+                    buttons[4].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[5].act!= null
+                    && event.pageX > buttons[5].x && event.pageX < buttons[5].x+68
+                    && event.pageY > buttons[5].y && event.pageY < buttons[5].y +68){
+                    buttons[5].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[6].act!= null
+                    && event.pageX > buttons[6].x && event.pageX < buttons[6].x+68
+                    && event.pageY > buttons[6].y && event.pageY < buttons[6].y +68){
+                    buttons[6].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[7].act!= null
+                    && event.pageX > buttons[7].x && event.pageX < buttons[7].x+68
+                    && event.pageY > buttons[7].y && event.pageY < buttons[7].y +68){
+                    buttons[7].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[8].act!= null
+                    && event.pageX > buttons[8].x && event.pageX < buttons[8].x+68
+                    && event.pageY > buttons[8].y && event.pageY < buttons[8].y +68){
+                    buttons[8].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[9].act!= null
+                    && event.pageX > buttons[9].x && event.pageX < buttons[9].x+68
+                    && event.pageY > buttons[9].y && event.pageY < buttons[9].y +68){
+                    buttons[9].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[10].act!= null
+                    && event.pageX > buttons[10].x && event.pageX < buttons[10].x+68
+                    && event.pageY > buttons[10].y && event.pageY < buttons[10].y +68){
+                    buttons[10].act.apply(selector.tileSelected);
+                }else if(selector.tileSelected != null && buttons[11].act!= null
+                    && event.pageX > buttons[11].x && event.pageX < buttons[11].x+68
+                    && event.pageY > buttons[11].y && event.pageY < buttons[11].y +68){
+                    buttons[11].act.apply(selector.tileSelected);
                 }
             }
 
