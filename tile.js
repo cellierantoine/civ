@@ -68,7 +68,7 @@ class Selector{
     displaySideMenu(terrainType, terrainConstruction){
         for(let i = 0; i<buttons.length; i++){
             buttons[i].sprite.destroy();
-            buttons[i].displayer.destroy();
+            displayText.destroy();
         }
 
         //Construction menu
@@ -86,9 +86,29 @@ class Selector{
 
     hoverSideMenu(x, y){
         if(x > buttons[0].x && x < buttons[0].x+68 && y > buttons[0].y && y < buttons[0].y+68){
-            console.log('btn1');
+            buttons[0].hoverText();
         }else if(x > buttons[1].x && x < buttons[1].x+68 && y > buttons[1].y && y < buttons[1].y+68) {
-            console.log('btn2');
+            buttons[1].hoverText();
+        }else if(x > buttons[2].x && x < buttons[2].x+68 && y > buttons[2].y && y < buttons[2].y+68) {
+            buttons[2].hoverText();
+        }else if(x > buttons[3].x && x < buttons[3].x+68 && y > buttons[3].y && y < buttons[3].y+68) {
+            buttons[3].hoverText();
+        }else if(x > buttons[4].x && x < buttons[4].x+68 && y > buttons[4].y && y < buttons[4].y+68) {
+            buttons[4].hoverText();
+        }else if(x > buttons[5].x && x < buttons[5].x+68 && y > buttons[5].y && y < buttons[5].y+68) {
+            buttons[5].hoverText();
+        }else if(x > buttons[6].x && x < buttons[6].x+68 && y > buttons[6].y && y < buttons[6].y+68) {
+            buttons[6].hoverText();
+        }else if(x > buttons[7].x && x < buttons[7].x+68 && y > buttons[7].y && y < buttons[7].y+68) {
+            buttons[7].hoverText();
+        }else if(x > buttons[8].x && x < buttons[8].x+68 && y > buttons[8].y && y < buttons[8].y+68) {
+            buttons[8].hoverText();
+        }else if(x > buttons[9].x && x < buttons[9].x+68 && y > buttons[9].y && y < buttons[9].y+68) {
+            buttons[9].hoverText();
+        }else if(x > buttons[10].x && x < buttons[10].x+68 && y > buttons[10].y && y < buttons[10].y+68) {
+            buttons[10].hoverText();
+        }else if(x > buttons[11].x && x < buttons[11].x+68 && y > buttons[11].y && y < buttons[11].y+68) {
+            buttons[11].hoverText();
         }
     }
 
@@ -134,7 +154,6 @@ class Button{
         this.sprite = game.add.sprite(0, 0, null);
         this.act = null;
         this.text = '';
-        this.displayer = game.add.text(700, 600, '', this.style);
         this.style = { font: "12px Arial", fill: "#000000", align: "center" };
     }
 
@@ -152,8 +171,8 @@ class Button{
     }
 
     hoverText(){
-        this.displayer.destroy();
-        this.displayer = game.add.text(700, 600, this.text, this.style);
+        displayText.destroy();
+        displayText = game.add.text(700, 600, this.text, this.style);
     }
 }
 

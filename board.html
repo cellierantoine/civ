@@ -52,7 +52,7 @@
             var x;
             var y;
 
-
+            var displayText;
 
             var menu = [[701,108],[777,108],[701,183],[777,183],[701,259],[777,259],[701,334],[777,334],[701,410],[777,410],[701,485],[777,485]];
             var buttons = [];
@@ -64,8 +64,6 @@
                 game.add.sprite(0, 0, 'background');
 
                 mapBeach(ground);
-
-                game.add.sprite(300, 300, 'tree');
 
                 //SELECTOR
                 selector = new Selector();
@@ -81,6 +79,8 @@
                 for(let i = 0; i<menu.length; i++){
                     buttons.push(new Button(menu[i][0], menu[i][1]));
                 }
+
+                displayText = game.add.text(700, 600, "coucou", {font: "12px Arial", fill: "#000000", align: "center"});
 
 
 
