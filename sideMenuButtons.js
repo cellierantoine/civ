@@ -44,7 +44,7 @@ function menuRock(){
 }
 
 function menuWood(){
-    buttons[0].updateButton(-1, "WoodCutting house", selector.tileSelected.buildWoodcutter);
+    buttons[0].updateButton("woodcutter", "woodCutting house", selector.tileSelected.buildWoodcutter);
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");
@@ -59,7 +59,7 @@ function menuWood(){
 }
 
 function menuWater(){
-    buttons[0].updateButton(-1, "dyke", selector.tileSelected.buildDyke);
+    buttons[0].updateButton("dyke", "dyke", selector.tileSelected.buildDyke);
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");
