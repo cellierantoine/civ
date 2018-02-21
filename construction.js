@@ -18,3 +18,17 @@ class Farm{
         menuReset();
     }
 }
+
+class Dyke{
+    constructor(x, y){
+        this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'dyke');
+        menuReset();
+    }
+}
+
+class Woodcutter{
+    constructor(x, y){
+        this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'woodcutter');
+        menuReset();
+    }
+}

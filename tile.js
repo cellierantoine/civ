@@ -200,6 +200,14 @@ class Tile {
         this.building = new Mine(this.x, this.y);
     }
 
+    buildDyke(){
+        this.building = new Dyke(this.x, this.y);
+    }
+
+    buildWoodcutter(){
+        this.building = new Woodcutter(this.x, this.y);
+    }
+
 }
 
 class Button{
