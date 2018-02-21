@@ -198,23 +198,33 @@ class Tile {
 
     //Build methods
     buildHouse(){
-        this.building = new House(this.x, this.y);
+        if(player.wood > HOUSE_W && player.food > HOUSE_F && player.rock > HOUSE_R) {
+            this.building = new House(this.x, this.y);
+        }
     }
 
     buildFarm(){
-        this.building = new Farm(this.x, this.y);
+        if(player.wood > FARM_W && player.food > FARM_F && player.rock > FARM_R) {
+            this.building = new Farm(this.x, this.y);
+        }
     }
 
     buildMine(){
-        this.building = new Mine(this.x, this.y);
+        if(player.wood > MINE_W && player.food > MINE_F && player.rock > MINE_R) {
+            this.building = new Mine(this.x, this.y);
+        }
     }
 
     buildDyke(){
-        this.building = new Dyke(this.x, this.y);
+        if(player.wood > DYKE_W && player.food > DYKE_F && player.rock > DYKE_R) {
+            this.building = new Dyke(this.x, this.y);
+        }
     }
 
     buildWoodcutter(){
-        this.building = new Woodcutter(this.x, this.y);
+        if(player.wood > WOODCUTTER_W && player.food > WOODCUTTER_F && player.rock > WOODCUTTER_R) {
+            this.building = new Woodcutter(this.x, this.y);
+        }
     }
 
     //Destroy methods
@@ -244,7 +254,7 @@ class Button{
         this.sprite = game.add.sprite(0, 0, null);
         this.act = null;
         this.text = '';
-        this.style = { font: "12px Arial", fill: "#000000", align: "center" };
+        this.style = { font: "18px Arial", fill: "#000000", align: "center" };
     }
 
     updateButton(sprite, text, act = null) {

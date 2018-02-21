@@ -14,8 +14,8 @@ function menuReset(){
 }
 
 function menuGrass(){
-    buttons[0].updateButton('house', "maisonGrass", selector.tileSelected.buildHouse);
-    buttons[1].updateButton('farm', "farmGrass", selector.tileSelected.buildFarm);
+    buttons[0].updateButton('house', "House", selector.tileSelected.buildHouse);
+    buttons[1].updateButton('farm', "Farm", selector.tileSelected.buildFarm);
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");
     buttons[4].updateButton(-1, "");
@@ -29,7 +29,7 @@ function menuGrass(){
 }
 
 function menuRock(){
-    buttons[0].updateButton('mine', "mineGrass", selector.tileSelected.buildMine);
+    buttons[0].updateButton('mine', "Mine", selector.tileSelected.buildMine);
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");
@@ -44,7 +44,7 @@ function menuRock(){
 }
 
 function menuWood(){
-    buttons[0].updateButton("woodcutter", "woodCutting house", selector.tileSelected.buildWoodcutter);
+    buttons[0].updateButton("woodcutter", "Woodutter hut", selector.tileSelected.buildWoodcutter);
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");
@@ -59,7 +59,7 @@ function menuWood(){
 }
 
 function menuWater(){
-    buttons[0].updateButton("dyke", "dyke", selector.tileSelected.buildDyke);
+    buttons[0].updateButton("dyke", "Dyke", selector.tileSelected.buildDyke);
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");

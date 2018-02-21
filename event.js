@@ -21,7 +21,9 @@ function flood(ground){
     }
     for(let x=0; x<flood.length; x++){
         ground[flood[x][0]][flood[x][1]].resource = null;
-        ground[flood[x][0]][flood[x][1]].building = null;
+        if(ground[flood[x][0]][flood[x][1]].building != null){
+            ground[flood[x][0]][flood[x][1]].destroyBuilding();
+        }
         ground[flood[x][0]][flood[x][1]].updateTerrainType('water', 'water');
     }
 }

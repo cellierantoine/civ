@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/selector.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board.html" afterPath="$PROJECT_DIR$/board.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construction.js" afterPath="$PROJECT_DIR$/construction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.js" afterPath="$PROJECT_DIR$/event.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player.js" afterPath="$PROJECT_DIR$/player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideMenuButtons.js" afterPath="$PROJECT_DIR$/sideMenuButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tile.js" afterPath="$PROJECT_DIR$/tile.js" />
@@ -23,39 +21,27 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="board.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/board.html">
+    <leaf>
+      <file leaf-file-name="player.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-655">
-              <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+            <state relative-caret-position="1935">
+              <caret line="231" column="28" lean-forward="false" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
               <folding>
                 <element signature="n#!!block;n#mapBeach#0" expanded="false" />
                 <element signature="n#!!block;n#mapRiver#0" expanded="false" />
                 <element signature="n#!!block;n#mapLake#0" expanded="false" />
-                <element signature="n#Tile#0" expanded="false" />
-                <element signature="n#Button#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/player.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -63,18 +49,8 @@
       <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="111" column="36" lean-forward="false" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="0">
+              <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -83,23 +59,18 @@
       <file leaf-file-name="construction.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/construction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <marker date="1519224853547" expanded="true" signature="11:230" ph="{...}" />
-                <marker date="1519224853547" expanded="true" signature="242:459" ph="{...}" />
-                <marker date="1519224853547" expanded="true" signature="471:688" ph="{...}" />
-                <marker date="1519224853547" expanded="true" signature="936:1165" ph="{...}" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resource.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource.js">
+      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -117,10 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text</find>
-      <find>house</find>
-      <find>flood</find>
-      <find>[2]</find>
       <find>u</find>
       <find>up</find>
       <find>upd</find>
@@ -147,9 +114,15 @@
       <find>plate</find>
       <find>plat</find>
       <find>player</find>
+      <find>HOUSE</find>
+      <find>if(player.wood &gt; HOUSE_W &amp;&amp; player.food &gt; HOUSE_F &amp;&amp; player.rock &gt; HOUSE_R) {</find>
+      <find>if(player.wood &gt; HOUSE_W &amp;&amp; player.food &gt; HOUSE_F &amp;&amp; player.rock &gt; HOUSE_R) {</find>
+      <find>if(player.wood &gt; HOUSE_W &amp;&amp; player.food &gt; HOUSE_F &amp;&amp; player.rock &gt; HOUSE_R){</find>
     </findStrings>
     <replaceStrings>
       <replace>[11]</replace>
+      <replace>DYKE</replace>
+      <replace>MINE</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,13 +135,13 @@
         <option value="$PROJECT_DIR$/part4.html" />
         <option value="$PROJECT_DIR$/tuto/tuto1plat/part9.html" />
         <option value="$PROJECT_DIR$/tile.html" />
-        <option value="$PROJECT_DIR$/event.js" />
         <option value="$PROJECT_DIR$/resource.js" />
-        <option value="$PROJECT_DIR$/sideMenuButtons.js" />
-        <option value="$PROJECT_DIR$/construction.js" />
-        <option value="$PROJECT_DIR$/player.js" />
         <option value="$PROJECT_DIR$/board.html" />
+        <option value="$PROJECT_DIR$/player.js" />
+        <option value="$PROJECT_DIR$/sideMenuButtons.js" />
         <option value="$PROJECT_DIR$/tile.js" />
+        <option value="$PROJECT_DIR$/construction.js" />
+        <option value="$PROJECT_DIR$/event.js" />
       </list>
     </option>
   </component>
@@ -209,7 +182,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,22 +194,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="civ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="civ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,6 +207,121 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/board.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/construction.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/event.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/player.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sideMenuButtons.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tile.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -349,7 +423,8 @@
       <workItem from="1519145813764" duration="647000" />
       <workItem from="1519158314025" duration="7957000" />
       <workItem from="1519195219230" duration="3973000" />
-      <workItem from="1519224335873" duration="6168000" />
+      <workItem from="1519224335873" duration="6253000" />
+      <workItem from="1519245746126" duration="5109000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1519031426539</created>
@@ -400,17 +475,23 @@
       <option name="project" value="LOCAL" />
       <updated>1519212751271</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Resource management">
+      <created>1519235970957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1519235970957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51494000" />
+    <option name="totallyTimeSpent" value="56688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1381" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -425,6 +506,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -445,7 +527,8 @@
     <MESSAGE value="add Dyke and woodcutter" />
     <MESSAGE value="Delete doc" />
     <MESSAGE value="Add worker system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add worker system" />
+    <MESSAGE value="Resource management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resource management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,8 +553,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,12 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <marker date="1519224853547" expanded="true" signature="11:230" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="242:459" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="471:688" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="936:1165" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -537,8 +613,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,12 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1519224853547" expanded="true" signature="11:230" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="242:459" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="471:688" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="936:1165" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,8 +665,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,12 +681,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1519224853547" expanded="true" signature="11:230" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="242:459" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="471:688" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="936:1165" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,8 +701,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -657,12 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1519224853547" expanded="true" signature="11:230" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="242:459" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="471:688" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="936:1165" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -682,8 +737,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -705,8 +758,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -755,27 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/construction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <marker date="1519224853547" expanded="true" signature="11:230" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="242:459" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="471:688" ph="{...}" />
-            <marker date="1519224853547" expanded="true" signature="936:1165" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/board.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-655">
@@ -784,33 +814,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+    <entry file="file://$PROJECT_DIR$/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="111" column="36" lean-forward="false" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player.js">
+    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+        <state relative-caret-position="1935">
+          <caret line="231" column="28" lean-forward="false" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
           <folding>
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Tile#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
