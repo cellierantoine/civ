@@ -114,6 +114,15 @@ class Selector{
         if(terrainConstruction != null) {
             menuReset();
         }else {
+            if(terrainConstruction instanceof House){
+                menuHouse();
+            }else if(terrainConstruction instanceof Woodcutter){
+                menuWoodcutter();
+            }else if(terrainConstruction instanceof Mine){
+                menuMine();
+            }else if(terrainConstruction instanceof Farm){
+                menuFarm();
+            }
 
             if (terrainType == 'grass') {
                 if(resource instanceof Wood){
@@ -223,7 +232,7 @@ class Button{
     updateButton(sprite, text, act = null) {
         this.sprite.destroy();
         if(sprite != -1) {
-            this.sprite = game.add.sprite(this.x, this.y, sprite);
+            this.sprite = game.add.sprite(this.x+2, this.y+2, sprite);
             this.sprite.width = this.sprite.width * 2;
             this.sprite.height = this.sprite.height * 2;
             this.sprite.smoothed = false;

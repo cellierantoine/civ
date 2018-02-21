@@ -72,3 +72,67 @@ function menuWater(){
     buttons[10].updateButton(-1, "");
     buttons[11].updateButton(-1, "");
 }
+
+
+//SIDE MENU FOR BUILDING
+function menuHouse(){
+    buttons[0].updateButton(-1, "");
+    buttons[1].updateButton(-1, "");
+    buttons[2].updateButton(-1, "");
+    buttons[3].updateButton(-1, "");
+    buttons[4].updateButton(-1, "");
+    buttons[5].updateButton(-1, "");
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton(-1, "");
+    buttons[9].updateButton(-1, "");
+    buttons[10].updateButton(-1, "");
+    buttons[11].updateButton('bomb', "Destroy the building");
+}
+
+function menuFarm(){
+    buttons[0].updateButton(-1, "");
+    buttons[1].updateButton(-1, "");
+    buttons[2].updateButton(-1, "");
+    buttons[3].updateButton(-1, "");
+    buttons[4].updateButton(-1, "");
+    buttons[5].updateButton(-1, "");
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton('worker+', "Add a worker");
+    buttons[9].updateButton('worker-', "Remove a worker");
+    buttons[10].updateButton(-1, "");
+    buttons[11].updateButton('bomb', "Destroy the building");
+}
+
+function menuMine(){
+    buttons[0].updateButton(-1, "");
+    buttons[1].updateButton(-1, "");
+    buttons[2].updateButton(-1, "");
+    buttons[3].updateButton(-1, "");
+    buttons[4].updateButton(-1, "");
+    buttons[5].updateButton(-1, "");
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton('worker+', "Add a worker");
+    buttons[9].updateButton('worker-', "Remove a worker");
+    buttons[10].updateButton(-1, "");
+    buttons[11].updateButton('bomb', "Destroy the building");
+}
+
+function menuWoodcutter(){
+    buttons[0].updateButton(-1, "");
+    buttons[1].updateButton(-1, "");
+    buttons[2].updateButton(-1, "");
+    buttons[3].updateButton(-1, "");
+    buttons[4].updateButton(-1, "");
+    buttons[5].updateButton(-1, "");
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton('worker+', "Add a worker");
+    buttons[9].updateButton('worker-', "Remove a worker");
+    buttons[10].updateButton(-1, "");
+    buttons[11].updateButton('bomb', "Destroy the building");
+}
+
+

@@ -1,21 +1,21 @@
 class House{
     constructor(x, y){
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'house');
-        menuReset();
+        menuHouse();
     }
 }
 
 class Mine{
     constructor(x, y){
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'mine');
-        menuReset();
+        menuMine();
     }
 }
 
 class Farm{
     constructor(x, y){
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'farm');
-        menuReset();
+        menuFarm();
     }
 }
 
@@ -29,6 +29,6 @@ class Dyke{
 class Woodcutter{
     constructor(x, y){
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'woodcutter');
-        menuReset();
+        menuWoodcutter();
     }
 }

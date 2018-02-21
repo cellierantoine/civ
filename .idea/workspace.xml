@@ -2,230 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/CreatureShader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/EarCut.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Event.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/EventTarget.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.BaseTexture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasBuffer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasGraphics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasMaskManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.CanvasTinter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.ComplexPrimitiveShader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.DisplayObject.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.DisplayObjectContainer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.FilterTexture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.Phaser.GraphicsData.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.PixiFastShader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.PixiShader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.PrimitiveShader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.Sprite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.StripShader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.Texture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLBlendModeManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLFastSpriteBatch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLFilterManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.WebGLRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PIXI.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Animation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.AnimationManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.AnimationParser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ArraySet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ArrayUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.AudioSprite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.BitmapData.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.BitmapText.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Bullet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Camera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.CanvasPool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Circle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Color.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Angle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Animation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.AutoCull.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Bounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.BringToTop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Core.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Crop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Delta.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Destroy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.FixedToCamera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Health.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.InCamera.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.InWorld.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.InputEnabled.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.LifeSpan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.LoadTexture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Overlap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.PhysicsBody.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Reset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.ScaleMinMax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Component.Smoothed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Creature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.DOM.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Device.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.DeviceButton.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Back.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Bounce.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Circular.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Cubic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Elastic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Exponential.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Linear.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Quadratic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Quartic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Quintic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.Sinusoidal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Easing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Ellipse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.FlexGrid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.FlexLayer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.FrameData.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Game.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.GameObjectCreator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.GameObjectFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Gamepad.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Graphics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Hermite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ImageCollection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Input.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.InputHandler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Key.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.KeyCode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Keyboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.LinkedList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Loader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.LoaderParser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.MSPointer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Math.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Matrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Mouse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Net.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particles.Arcade.Emitter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particles.Arcade.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Particles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Path.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PathFollower.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PathPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Arcade.Body.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Arcade.TilemapCollision.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Arcade.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.AABB.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.Body.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.Circle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.Tile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.Ninja.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.Body.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.BodyDebug.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.CollisionGroup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.ContactMaterial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.DistanceConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.FixtureList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.GearConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.InversePointProxy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.LockConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.Material.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.PointProxy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.PrismaticConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.RevoluteConstraint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.RotationalSpring.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.Spring.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.P2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Physics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Plugin.PathManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Plugin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PluginManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Point.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Pointer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.PointerMode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Polygon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.QuadTree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RandomDataGenerator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Rectangle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RenderTexture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RequestAnimationFrame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RetroFont.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Rope.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.RoundedRectangle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.ScaleManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Signal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SignalBinding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SinglePad.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Sound.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SoundManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Sprite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.SpriteBatch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Stage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.State.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.StateManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Text.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TileSprite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tilemap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TilemapLayer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TilemapParser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tileset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Time.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Timer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TimerEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Touch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Tween.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TweenData.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.TweenManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Utils.Debug.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Utils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.Weapon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.World.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/Phaser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/PhaserGlobal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/classes.list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/global.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/namespaces.list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts-src/misc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts-src/toc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/scripts/bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/docs/styles/site.phaser.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/phaser-ce-2.10.0/phaser-logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/baddie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/dude.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/firstaid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/platform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/sky.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/assets/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/part9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuto/tuto1plat/tutorial.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/building/dyke.png" afterPath="$PROJECT_DIR$/assets/building/dyke.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board.html" afterPath="$PROJECT_DIR$/board.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construction.js" afterPath="$PROJECT_DIR$/construction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideMenuButtons.js" afterPath="$PROJECT_DIR$/sideMenuButtons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tile.js" afterPath="$PROJECT_DIR$/tile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -243,33 +25,39 @@
       <file leaf-file-name="board.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/board.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+            <state relative-caret-position="-1328">
+              <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-              <folding>
-                <element signature="n#Button#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-3">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-              <folding>
-                <marker date="1519203725531" expanded="true" signature="1573:1603" ph="{...}" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -287,11 +75,9 @@
       <file leaf-file-name="construction.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/construction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <marker date="1519195590259" expanded="true" signature="630:777" ph="{...}" />
-              </folding>
+            <state relative-caret-position="-3">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -345,6 +131,7 @@
       <find>ressour</find>
       <find>ressourc</find>
       <find>ressource</find>
+      <find>displaySide</find>
     </findStrings>
     <replaceStrings>
       <replace>[11]</replace>
@@ -362,10 +149,11 @@
         <option value="$PROJECT_DIR$/tile.html" />
         <option value="$PROJECT_DIR$/event.js" />
         <option value="$PROJECT_DIR$/resource.js" />
+        <option value="$PROJECT_DIR$/player.js" />
+        <option value="$PROJECT_DIR$/tile.js" />
+        <option value="$PROJECT_DIR$/construction.js" />
         <option value="$PROJECT_DIR$/board.html" />
         <option value="$PROJECT_DIR$/sideMenuButtons.js" />
-        <option value="$PROJECT_DIR$/construction.js" />
-        <option value="$PROJECT_DIR$/tile.js" />
       </list>
     </option>
   </component>
@@ -655,7 +443,7 @@
       <workItem from="1519023168187" duration="10958000" />
       <workItem from="1519145813764" duration="647000" />
       <workItem from="1519158314025" duration="7957000" />
-      <workItem from="1519195219230" duration="1331000" />
+      <workItem from="1519195219230" duration="3938000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1519031426539</created>
@@ -692,16 +480,24 @@
       <option name="project" value="LOCAL" />
       <updated>1519195822898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Delete doc">
+      <created>1519203868366</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519203868366</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42684000" />
+    <option name="totallyTimeSpent" value="45291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1381" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -733,7 +529,8 @@
     <MESSAGE value="hover on button" />
     <MESSAGE value="Rock and wood management" />
     <MESSAGE value="add Dyke and woodcutter" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Dyke and woodcutter" />
+    <MESSAGE value="Delete doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,9 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="126" column="28" lean-forward="false" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-          <folding>
-            <element signature="n#Button#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,9 +567,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1519195590259" expanded="true" signature="630:777" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -790,9 +583,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <marker date="1519203725531" expanded="true" signature="1573:1603" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,9 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#Button#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,9 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <marker date="1519203725531" expanded="true" signature="1573:1603" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,9 +615,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1519195590259" expanded="true" signature="630:777" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,9 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#Button#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,9 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <marker date="1519203725531" expanded="true" signature="1573:1603" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,9 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1519195590259" expanded="true" signature="630:777" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,9 +663,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-          <folding>
-            <element signature="n#Button#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,9 +686,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#Button#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,10 +762,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/assets/house.png" />
-    <entry file="file://$PROJECT_DIR$/board.html">
+    <entry file="file://$PROJECT_DIR$/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+        <state relative-caret-position="255">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1003,41 +786,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/construction.js">
+    <entry file="file://$PROJECT_DIR$/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1519195590259" expanded="true" signature="630:777" ph="{...}" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+    <entry file="file://$PROJECT_DIR$/board.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <marker date="1519203725531" expanded="true" signature="1573:1603" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="-1328">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-          <folding>
-            <element signature="n#Button#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-3">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
