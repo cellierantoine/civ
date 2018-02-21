@@ -1,8 +1,8 @@
-class player{
+class Player{
     constructor(){
-        this.wood = 0;
-        this.rock = 0;
-        this.food = 0;
-        this.inhabitant = 0;
+        this.wood = 300;
+        this.rock = 300;
+        this.food = 300;
+        this.inhabitant = 200;
     }
 }

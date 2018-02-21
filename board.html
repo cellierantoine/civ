@@ -29,8 +29,14 @@
 
 
             function preload() {
-                game.load.image('background', 'assets/background.png');
-                game.load.image('selector', 'assets/selector.png');
+                //ui
+                game.load.image('background', 'assets/ui/background.png');
+                game.load.image('selector', 'assets/ui/selector.png');
+                game.load.image('food', 'assets/ui/food.png');
+                game.load.image('stone', 'assets/ui/rock.png');
+                game.load.image('citizen', 'assets/ui/citizen.png');
+                game.load.image('wood', 'assets/ui/wood.png');
+
 
                 //Tiles
                 game.load.image('grass1', 'assets/terrain/grass1.png');
@@ -67,11 +73,28 @@
             var menu = [[701,108],[777,108],[701,183],[777,183],[701,259],[777,259],[701,334],[777,334],[701,410],[777,410],[701,485],[777,485]];
             var buttons = [];
 
+            var player = new Player();
+
+            var displayFood;
+            var displayRock;
+            var displayWood;
+            var displayCitizen;
+
 
 
             function create() {
                 //SPRITE
                 game.add.sprite(0, 0, 'background');
+
+                game.add.sprite(25, 16, 'food');
+                game.add.sprite(175, 16, 'stone');
+                game.add.sprite(325, 16, 'wood');
+                game.add.sprite(475, 16, 'citizen');
+
+                displayFood = game.add.text(65, 20, player.food, { font: "20px Arial", fill: "#000000", align: "center" });
+                displayRock = game.add.text(215, 20, player.rock, { font: "20px Arial", fill: "#000000", align: "center" });
+                displayWood = game.add.text(365, 20, player.wood, { font: "20px Arial", fill: "#000000", align: "center" });
+                displayCitizen = game.add.text(515, 20, player.inhabitant, { font: "20px Arial", fill: "#000000", align: "center" });
 
                 mapLake(ground);
 
@@ -103,6 +126,8 @@
                 if(x>692 && x<853 && y>99 && y<561){
                     selector.hoverSideMenu(x, y);
                 }
+
+                resource();
             }
 
             function click(event, ground, selector){
@@ -164,6 +189,20 @@
             function hover(event){
                 x = event.pageX;
                 y = event.pageY;
+            }
+
+            function resource(){
+                let style = { font: "20px Arial", fill: "#000000", align: "center" };
+
+                displayFood.destroy();
+                displayRock.destroy();
+                displayWood.destroy();
+                displayCitizen.destroy();
+
+                displayFood = game.add.text(65, 20, player.food, style);
+                displayRock = game.add.text(215, 20, player.rock, style);
+                displayWood = game.add.text(365, 20, player.wood, style);
+                displayCitizen = game.add.text(515, 20, player.inhabitant, style);
             }
 
 

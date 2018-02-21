@@ -112,18 +112,16 @@ class Selector{
 
         //Construction menu
         if(terrainConstruction != null) {
-            menuReset();
-        }else {
-            if(terrainConstruction instanceof House){
+            if (terrainConstruction instanceof House) {
                 menuHouse();
-            }else if(terrainConstruction instanceof Woodcutter){
+            } else if (terrainConstruction instanceof Woodcutter) {
                 menuWoodcutter();
-            }else if(terrainConstruction instanceof Mine){
+            } else if (terrainConstruction instanceof Mine) {
                 menuMine();
-            }else if(terrainConstruction instanceof Farm){
+            } else if (terrainConstruction instanceof Farm) {
                 menuFarm();
             }
-
+        }else{
             if (terrainType == 'grass') {
                 if(resource instanceof Wood){
                     menuWood();
@@ -136,6 +134,8 @@ class Selector{
                 menuWater();
             }
         }
+
+
     }
 
     hoverSideMenu(x, y){
@@ -217,7 +217,14 @@ class Tile {
         this.building = new Woodcutter(this.x, this.y);
     }
 
+    //Destroy methods
+    destroyBuilding(){
+        this.building.destructor();
+        this.building = null;
+    }
 }
+
+
 
 class Button{
     constructor(x, y){
