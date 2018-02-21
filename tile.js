@@ -222,6 +222,17 @@ class Tile {
         this.building.destructor();
         this.building = null;
     }
+
+    //Worker methods
+    addWorker(){
+        if(player.inhabitant > 0){
+            this.building.addWorker();
+        }
+    }
+
+    removeWorker(){
+        this.building.removeWorker();
+    }
 }
 
 

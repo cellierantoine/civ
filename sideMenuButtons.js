@@ -99,8 +99,8 @@ function menuFarm(){
     buttons[5].updateButton(-1, "");
     buttons[6].updateButton(-1, "");
     buttons[7].updateButton(-1, "");
-    buttons[8].updateButton('worker+', "Add a worker");
-    buttons[9].updateButton('worker-', "Remove a worker");
+    buttons[8].updateButton('worker+', "Add a worker", selector.tileSelected.addWorker);
+    buttons[9].updateButton('worker-', "Remove a worker", selector.tileSelected.removeWorker);
     buttons[10].updateButton(-1, "");
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
@@ -114,8 +114,8 @@ function menuMine(){
     buttons[5].updateButton(-1, "");
     buttons[6].updateButton(-1, "");
     buttons[7].updateButton(-1, "");
-    buttons[8].updateButton('worker+', "Add a worker");
-    buttons[9].updateButton('worker-', "Remove a worker");
+    buttons[8].updateButton('worker+', "Add a worker", selector.tileSelected.addWorker);
+    buttons[9].updateButton('worker-', "Remove a worker", selector.tileSelected.removeWorker);
     buttons[10].updateButton(-1, "");
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
@@ -129,8 +129,8 @@ function menuWoodcutter(){
     buttons[5].updateButton(-1, "");
     buttons[6].updateButton(-1, "");
     buttons[7].updateButton(-1, "");
-    buttons[8].updateButton('worker+', "Add a worker");
-    buttons[9].updateButton('worker-', "Remove a worker");
+    buttons[8].updateButton('worker+', "Add a worker", selector.tileSelected.addWorker);
+    buttons[9].updateButton('worker-', "Remove a worker", selector.tileSelected.removeWorker);
     buttons[10].updateButton(-1, "");
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
