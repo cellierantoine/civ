@@ -3,7 +3,6 @@ function flood(ground){
     for(let i=0; i<ground.length; i++){
         for(let j=0; j<ground[i].length; j++){
             if(ground[i][j].terrainType == 'water' && Math.random()<0.25){
-                console.log("flood : " +i+"/"+j);
                 if(i<ground.length-1 && ground[i+1][j].terrainType != 'water'){
                     flood.push([i+1, j]);
                 }

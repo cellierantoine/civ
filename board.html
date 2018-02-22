@@ -86,6 +86,9 @@
             var inputFood = 0;
             var inputWood = 0;
             var inputRock = 0;
+            
+			var starvation = false;
+			var citizenDecay;
 
 
             function create() {
@@ -137,14 +140,34 @@
                 if(game.time.now > resourceTime+1000){
                     player.wood += inputWood;
                     player.rock += inputRock;
-                    player.food += inputFood;
+                    if(player.citizen > 0){
+						player.food += inputFood - (player.citizen -1)*0.5;
+					}
                     resource();
                     resourceTime = game.time.now;
                 }
+                
+                
+
+                if(player.food < 0 && starvation == false){
+					//Starvation
+					starvation = true;
+					citizenDecay = game.time.now;
+				}else if(player.food > 0 && starvation == true){
+					starvation = false;
+				}
+				
+				if(starvation == true && game.time.now > citizenDecay + 5000){
+					console.log("a citizen die");
+					if(player.citizen>1){
+						player.citizen --;
+						player.inhabitant --;
+					}
+					citizenDecay = game.time.now;
+				}
             }
 
             function click(event, ground, selector){
-                console.log(event.pageX+" / "+event.pageY);
                 if(event.pageX < 872- SIDE_BAR_SIZE && event.pageY > TOP_BAR_SIZE){
                     selector.moveSelector(event, ground);
                     selector.displaySideMenu(selector.tileSelected.terrainType, selector.tileSelected.building, selector.tileSelected.resource);
@@ -217,6 +240,7 @@
                 displayWood = game.add.text(365, 20, player.wood, style);
                 displayCitizen = game.add.text(515, 20, player.inhabitant + "/" + player.citizen, style);
             }
+            
 
 
         </script>
