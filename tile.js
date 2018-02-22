@@ -196,6 +196,21 @@ class Tile {
         this.resource = new Wood(this.x, this.y);
     }
 
+    harvest(){
+        if(this.resource instanceof Wood){
+            this.resource.destructor();
+            this.resource = null;
+            player.wood += 30;
+            menuGrass();
+        }else if(this.resource instanceof Rock){
+            this.resource.destructor();
+            this.resource = null;
+            player.rock += 30;
+            menuGrass();
+        }
+    }
+
+
     //Build methods
     buildHouse(){
         if(player.wood > HOUSE_W && player.food > HOUSE_F && player.rock > HOUSE_R) {
@@ -254,7 +269,7 @@ class Button{
         this.sprite = game.add.sprite(0, 0, null);
         this.act = null;
         this.text = '';
-        this.style = { font: "18px Arial", fill: "#000000", align: "center" };
+        this.style = { font: "18px Arial", fill: "#000000", align: "left" };
     }
 
     updateButton(sprite, text, act = null) {

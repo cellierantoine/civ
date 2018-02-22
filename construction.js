@@ -1,5 +1,5 @@
 //HOUSE MATERIALS
-var HOUSE_F = 80;
+var HOUSE_F = 20;
 var HOUSE_R = 40;
 var HOUSE_W = 80;
 
@@ -11,14 +11,14 @@ class House{
         this.sprite = game.add.sprite(x * TILE_SIZE, y * TILE_SIZE + TOP_BAR_SIZE, 'house');
         player.inhabitant += 3;
         player.citizen += 3;
+        player.citizenCap += 3;
         menuHouse();
     }
 
     destructor(){
         this.sprite.destroy();
-        player.inhabitant -= 3;
-        player.citizen -= 3;
-        menuReset();
+        player.citizenCap -= 3;
+        menuGrass();
     }
 }
 
@@ -40,20 +40,19 @@ class Mine{
 
     destructor(){
         this.sprite.destroy();
-        menuReset();
-    }
-
-    destructor(){
-        this.sprite.destroy();
-        inputRock -= this.worker*RES_FLUX;
-        player.inhabitant += this.worker;
-        menuReset();
+        let x = this.worker;
+        for(let i = 0; i<x; i++){
+            console.log(i+" "+this.worker);
+            this.removeWorker();
+        }
+        menuRock();
     }
 
     addWorker(){
         if(this.worker<4){
             player.inhabitant --;
             this.worker += 1;
+            citizenStack.push(this);
             inputRock += 1*RES_FLUX;
         }
     }
@@ -62,6 +61,7 @@ class Mine{
         if(this.worker>0){
             this.worker -= 1;
             inputRock -=1*RES_FLUX;
+            citizenStack.splice(citizenStack.indexOf(this), 1);
             player.inhabitant += 1;
         }
     }
@@ -84,15 +84,18 @@ class Farm{
 
     destructor(){
         this.sprite.destroy();
-        inputFood -= this.worker*RES_FLUX;
-        player.inhabitant += this.worker;
-        menuReset();
+        let x = this.worker;
+        for(let i = 0; i<x; i++){
+            this.removeWorker();
+        }
+        menuFarm();
     }
 
     addWorker(){
         if(this.worker<4){            
             player.inhabitant --;
             this.worker += 1;
+            citizenStack.push(this);
             inputFood += 1*RES_FLUX;
         }
     }
@@ -101,6 +104,7 @@ class Farm{
         if(this.worker>0){
             this.worker -= 1;
             inputFood -=1*RES_FLUX;
+            citizenStack.splice(citizenStack.indexOf(this), 1);
             player.inhabitant += 1;
         }
     }
@@ -117,7 +121,7 @@ class Dyke{
         player.food -= DYKE_F;
         player.rock -= DYKE_R;
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'dyke');
-        menuReset();
+        menuWater();
     }
 
     destructor(){
@@ -144,15 +148,18 @@ class Woodcutter{
 
     destructor(){
         this.sprite.destroy();
-        inputWood -= this.worker*RES_FLUX;
-        player.inhabitant += this.worker;
-        menuReset();
+        let x = this.worker;
+        for(let i = 0; i<x; i++){
+            this.removeWorker();
+        }
+        menuWood();
     }
 
     addWorker(){
         if(this.worker<4){
             player.inhabitant --;
             this.worker += 1;
+            citizenStack.push(this);
             inputWood += 1*RES_FLUX;
         }
     }
@@ -161,6 +168,7 @@ class Woodcutter{
         if(this.worker>0){
             player.inhabitant += 1;
             this.worker -= 1;
+            citizenStack.splice(citizenStack.indexOf(this), 1);
             inputWood -=1*RES_FLUX;
         }
     }

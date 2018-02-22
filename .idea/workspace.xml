@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board.html" afterPath="$PROJECT_DIR$/board.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construction.js" afterPath="$PROJECT_DIR$/construction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.js" afterPath="$PROJECT_DIR$/event.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player.js" afterPath="$PROJECT_DIR$/player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource.js" afterPath="$PROJECT_DIR$/resource.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideMenuButtons.js" afterPath="$PROJECT_DIR$/sideMenuButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tile.js" afterPath="$PROJECT_DIR$/tile.js" />
     </list>
@@ -21,12 +22,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="player.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -35,8 +36,8 @@
       <file leaf-file-name="tile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="231" column="28" lean-forward="false" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
+            <state relative-caret-position="217">
+              <caret line="271" column="72" lean-forward="false" selection-start-line="271" selection-start-column="72" selection-end-line="271" selection-end-column="72" />
               <folding>
                 <element signature="n#!!block;n#mapBeach#0" expanded="false" />
                 <element signature="n#!!block;n#mapRiver#0" expanded="false" />
@@ -46,31 +47,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+      <file leaf-file-name="resource.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+              <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="construction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/construction.js">
+      <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="395">
+              <caret line="65" column="66" lean-forward="false" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event.js">
+      <file leaf-file-name="board.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="337">
+              <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -88,9 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>u</find>
-      <find>up</find>
-      <find>upd</find>
       <find>updat</find>
       <find>update</find>
       <find>updateT</find>
@@ -116,13 +114,17 @@
       <find>player</find>
       <find>HOUSE</find>
       <find>if(player.wood &gt; HOUSE_W &amp;&amp; player.food &gt; HOUSE_F &amp;&amp; player.rock &gt; HOUSE_R) {</find>
-      <find>if(player.wood &gt; HOUSE_W &amp;&amp; player.food &gt; HOUSE_F &amp;&amp; player.rock &gt; HOUSE_R) {</find>
       <find>if(player.wood &gt; HOUSE_W &amp;&amp; player.food &gt; HOUSE_F &amp;&amp; player.rock &gt; HOUSE_R){</find>
+      <find>S</find>
+      <find>STYLE</find>
+      <find>MINE</find>
+      <find>WOODCUTTER</find>
     </findStrings>
     <replaceStrings>
       <replace>[11]</replace>
       <replace>DYKE</replace>
       <replace>MINE</replace>
+      <replace>mine</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,13 +137,13 @@
         <option value="$PROJECT_DIR$/part4.html" />
         <option value="$PROJECT_DIR$/tuto/tuto1plat/part9.html" />
         <option value="$PROJECT_DIR$/tile.html" />
-        <option value="$PROJECT_DIR$/resource.js" />
-        <option value="$PROJECT_DIR$/board.html" />
-        <option value="$PROJECT_DIR$/player.js" />
-        <option value="$PROJECT_DIR$/sideMenuButtons.js" />
-        <option value="$PROJECT_DIR$/tile.js" />
-        <option value="$PROJECT_DIR$/construction.js" />
         <option value="$PROJECT_DIR$/event.js" />
+        <option value="$PROJECT_DIR$/resource.js" />
+        <option value="$PROJECT_DIR$/player.js" />
+        <option value="$PROJECT_DIR$/board.html" />
+        <option value="$PROJECT_DIR$/construction.js" />
+        <option value="$PROJECT_DIR$/tile.js" />
+        <option value="$PROJECT_DIR$/sideMenuButtons.js" />
       </list>
     </option>
   </component>
@@ -181,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,6 +197,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -223,11 +225,8 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/board.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/construction.js</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/event.js</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/player.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sideMenuButtons.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tile.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -424,7 +423,9 @@
       <workItem from="1519158314025" duration="7957000" />
       <workItem from="1519195219230" duration="3973000" />
       <workItem from="1519224335873" duration="6253000" />
-      <workItem from="1519245746126" duration="5109000" />
+      <workItem from="1519245746126" duration="5144000" />
+      <workItem from="1519280375446" duration="858000" />
+      <workItem from="1519311494353" duration="16171000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1519031426539</created>
@@ -482,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519235970957</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Building management">
+      <created>1519254638983</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1519254638983</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56688000" />
+    <option name="totallyTimeSpent" value="73752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1381" height="744" extended-state="6" />
@@ -496,17 +504,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -528,15 +536,40 @@
     <MESSAGE value="Delete doc" />
     <MESSAGE value="Add worker system" />
     <MESSAGE value="Resource management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resource management" />
+    <MESSAGE value="Building management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/board.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -553,6 +586,7 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,6 +647,7 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,6 +700,7 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -701,6 +737,7 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,6 +774,7 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -758,6 +796,7 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
+            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,42 +837,42 @@
     <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html" />
     <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/assets/house.png" />
-    <entry file="file://$PROJECT_DIR$/resource.js">
+    <entry file="file://$PROJECT_DIR$/construction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/board.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-655">
-          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+    <entry file="file://$PROJECT_DIR$/resource.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="231" column="28" lean-forward="false" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
+        <state relative-caret-position="217">
+          <caret line="271" column="72" lean-forward="false" selection-start-line="271" selection-start-column="72" selection-end-line="271" selection-end-column="72" />
           <folding>
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
@@ -842,18 +881,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/construction.js">
+    <entry file="file://$PROJECT_DIR$/board.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="337">
+          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player.js">
+    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="395">
+          <caret line="65" column="66" lean-forward="false" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
           <folding />
         </state>
       </provider>

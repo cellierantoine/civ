@@ -57,6 +57,9 @@
                 game.load.image('worker-', 'assets/worker-.png');
                 game.load.image('bomb', 'assets/bomb.png');
 
+                game.load.image('pickaxe', "assets/pickaxe.png");
+                game.load.image('axe', "assets/axe.png");
+
                 //Resources
                 game.load.image('tree', 'assets/resources/tree.png');
                 game.load.image('rock', 'assets/resources/rock.png');
@@ -86,9 +89,11 @@
             var inputFood = 0;
             var inputWood = 0;
             var inputRock = 0;
-            
+
 			var starvation = false;
 			var citizenDecay;
+			var citizenGrow;
+			var citizenStack = [];
 
 
             function create() {
@@ -150,21 +155,42 @@
                 
 
                 if(player.food < 0 && starvation == false){
-					//Starvation
 					starvation = true;
 					citizenDecay = game.time.now;
 				}else if(player.food > 0 && starvation == true){
 					starvation = false;
+					citizenGrow = game.time.now;
 				}
 				
 				if(starvation == true && game.time.now > citizenDecay + 5000){
-					console.log("a citizen die");
 					if(player.citizen>1){
 						player.citizen --;
 						player.inhabitant --;
+						if(player.inhabitant<0){
+                            citizenStack[citizenStack.length-1].removeWorker();
+                        }
 					}
 					citizenDecay = game.time.now;
 				}
+				if(player.citizenCap > player.citizen && starvation == false && game.time.now > citizenGrow + 5000){
+                    player.inhabitant ++;
+                    player.citizen ++;
+				    citizenGrow = game.time.now;
+                }
+
+                if(player.citizenCap < player.citizen){
+				    let delta = player.citizen - player.citizenCap;
+				    console.log(delta);
+                    player.citizen = player.citizenCap;
+                    for(let i=0; i<delta; i++){
+                        player.inhabitant --;
+                        if(player.inhabitant<0){
+                            console.log('ok');
+                            citizenStack[citizenStack.length-1].removeWorker();
+                        }
+                    }
+                }
+
             }
 
             function click(event, ground, selector){
