@@ -146,7 +146,7 @@
                 if(game.time.now > resourceTime+1000){
                     player.wood += inputWood;
                     player.rock += inputRock;
-                    if(player.citizen > 0){
+                    if(player.citizen > 0 && player.food >0){
 						player.food += inputFood - (player.citizen -1)*0.5;
 					}
                     resource();
@@ -186,7 +186,6 @@
                     for(let i=0; i<delta; i++){
                         player.inhabitant --;
                         if(player.inhabitant<0){
-                            console.log('ok');
                             citizenStack[citizenStack.length-1].removeWorker();
                         }
                     }

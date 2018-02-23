@@ -92,7 +92,7 @@ class Farm{
         for(let i = 0; i<x; i++){
             this.removeWorker();
         }
-        menuFarm();
+        menuGrass();
     }
 
     addWorker(){
@@ -111,6 +111,10 @@ class Farm{
             citizenStack.splice(citizenStack.indexOf(this), 1);
             player.inhabitant += 1;
         }
+    }
+
+    information(){
+        return this.worker+" / 4 workers";
     }
 }
 
@@ -175,5 +179,9 @@ class Woodcutter{
             citizenStack.splice(citizenStack.indexOf(this), 1);
             inputWood -=1*RES_FLUX;
         }
+    }
+
+    information(){
+        return this.worker+" / 4 workers";
     }
 }

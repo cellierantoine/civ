@@ -26,3 +26,15 @@ function flood(ground){
         ground[flood[x][0]][flood[x][1]].updateTerrainType('water', 'water');
     }
 }
+
+
+function collapse(ground){
+    for(let i=0; i<ground.length; i++) {
+        for (let j = 0; j < ground[i].length; j++) {
+            if (ground[i][j].building != null && Math.random() < 0.2) {
+                ground[i][j].destroyBuilding();
+                return 1;
+            }
+        }
+    }
+}

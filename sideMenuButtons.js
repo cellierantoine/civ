@@ -67,7 +67,7 @@ function menuWood(){
 }
 
 function menuWater(){
-    let dykeTxt = "Farm\nFood : "+DYKE_F+"\nLumber : "+DYKE_W+"\nStone : "+DYKE_R;
+    let dykeTxt = "Dyke\nFood : "+DYKE_F+"\nLumber : "+DYKE_W+"\nStone : "+DYKE_R;
 
     buttons[0].updateButton("dyke", dykeTxt, selector.tileSelected.buildDyke);
     buttons[1].updateButton(-1, "");
@@ -111,7 +111,7 @@ function menuFarm(){
     buttons[7].updateButton(-1, "");
     buttons[8].updateButton('worker+', "Add a worker", selector.tileSelected.addWorker);
     buttons[9].updateButton('worker-', "Remove a worker", selector.tileSelected.removeWorker);
-    buttons[10].updateButton('information', "", selector.tileSelected.displayInformation);
+    buttons[10].updateButton('information', selector.tileSelected.displayInformation);
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
 
@@ -126,7 +126,7 @@ function menuMine(){
     buttons[7].updateButton(-1, "");
     buttons[8].updateButton('worker+', "Add a worker", selector.tileSelected.addWorker);
     buttons[9].updateButton('worker-', "Remove a worker", selector.tileSelected.removeWorker);
-    buttons[10].updateButton('information', selector.tileSelected.displayInformation());
+    buttons[10].updateButton('information', selector.tileSelected.displayInformation);
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
 
@@ -141,7 +141,7 @@ function menuWoodcutter(){
     buttons[7].updateButton(-1, "");
     buttons[8].updateButton('worker+', "Add a worker", selector.tileSelected.addWorker);
     buttons[9].updateButton('worker-', "Remove a worker", selector.tileSelected.removeWorker);
-    buttons[10].updateButton(-1, "");
+    buttons[10].updateButton('information', selector.tileSelected.displayInformation);
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
 

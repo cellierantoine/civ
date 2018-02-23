@@ -262,7 +262,7 @@ class Tile {
     //Others
     displayInformation(){
         displayText.destroy();
-        displayText = game.add.text(700, 600, this.building.information(), { font: "18px Arial", fill: "#000000", align: "left" });
+        return this.building.information();
     }
 }
 
@@ -286,6 +286,7 @@ class Button{
             this.sprite.height = this.sprite.height * 2;
             this.sprite.smoothed = false;
         }
+
         this.text = text;
         
         this.act = act;
@@ -293,7 +294,11 @@ class Button{
 
     hoverText(){
         displayText.destroy();
-        displayText = game.add.text(700, 600, this.text, this.style);
+        if(this.text instanceof Function){
+            displayText = game.add.text(700, 600, this.text.apply(selector.tileSelected), this.style);
+        }else {
+            displayText = game.add.text(700, 600, this.text, this.style);
+        }
     }
 }
 
