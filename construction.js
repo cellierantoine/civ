@@ -65,6 +65,10 @@ class Mine{
             player.inhabitant += 1;
         }
     }
+
+    information(){
+        return this.worker+" / 4 workers";
+    }
 }
 
 //FARM MATERIALS

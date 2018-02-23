@@ -213,31 +213,31 @@ class Tile {
 
     //Build methods
     buildHouse(){
-        if(player.wood > HOUSE_W && player.food > HOUSE_F && player.rock > HOUSE_R) {
+        if(player.wood >= HOUSE_W && player.food >= HOUSE_F && player.rock >= HOUSE_R) {
             this.building = new House(this.x, this.y);
         }
     }
 
     buildFarm(){
-        if(player.wood > FARM_W && player.food > FARM_F && player.rock > FARM_R) {
+        if(player.wood >= FARM_W && player.food >= FARM_F && player.rock >= FARM_R) {
             this.building = new Farm(this.x, this.y);
         }
     }
 
     buildMine(){
-        if(player.wood > MINE_W && player.food > MINE_F && player.rock > MINE_R) {
+        if(player.wood >= MINE_W && player.food >= MINE_F && player.rock >= MINE_R) {
             this.building = new Mine(this.x, this.y);
         }
     }
 
     buildDyke(){
-        if(player.wood > DYKE_W && player.food > DYKE_F && player.rock > DYKE_R) {
+        if(player.wood >= DYKE_W && player.food >= DYKE_F && player.rock >= DYKE_R) {
             this.building = new Dyke(this.x, this.y);
         }
     }
 
     buildWoodcutter(){
-        if(player.wood > WOODCUTTER_W && player.food > WOODCUTTER_F && player.rock > WOODCUTTER_R) {
+        if(player.wood >= WOODCUTTER_W && player.food >= WOODCUTTER_F && player.rock >= WOODCUTTER_R) {
             this.building = new Woodcutter(this.x, this.y);
         }
     }
@@ -257,6 +257,12 @@ class Tile {
 
     removeWorker(){
         this.building.removeWorker();
+    }
+
+    //Others
+    displayInformation(){
+        displayText.destroy();
+        displayText = game.add.text(700, 600, this.building.information(), { font: "18px Arial", fill: "#000000", align: "left" });
     }
 }
 

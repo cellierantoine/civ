@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board.html" afterPath="$PROJECT_DIR$/board.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construction.js" afterPath="$PROJECT_DIR$/construction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player.js" afterPath="$PROJECT_DIR$/player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource.js" afterPath="$PROJECT_DIR$/resource.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideMenuButtons.js" afterPath="$PROJECT_DIR$/sideMenuButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tile.js" afterPath="$PROJECT_DIR$/tile.js" />
     </list>
@@ -22,62 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/player.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="271" column="72" lean-forward="false" selection-start-line="271" selection-start-column="72" selection-end-line="271" selection-end-column="72" />
-              <folding>
-                <element signature="n#!!block;n#mapBeach#0" expanded="false" />
-                <element signature="n#!!block;n#mapRiver#0" expanded="false" />
-                <element signature="n#!!block;n#mapLake#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resource.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="65" column="66" lean-forward="false" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="board.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/board.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,9 +32,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>updat</find>
-      <find>update</find>
-      <find>updateT</find>
       <find>updateTer</find>
       <find>updateTerr</find>
       <find>updateTerrai</find>
@@ -119,6 +59,9 @@
       <find>STYLE</find>
       <find>MINE</find>
       <find>WOODCUTTER</find>
+      <find>menu</find>
+      <find>apply</find>
+      <find>updateBu</find>
     </findStrings>
     <replaceStrings>
       <replace>[11]</replace>
@@ -140,8 +83,8 @@
         <option value="$PROJECT_DIR$/event.js" />
         <option value="$PROJECT_DIR$/resource.js" />
         <option value="$PROJECT_DIR$/player.js" />
-        <option value="$PROJECT_DIR$/board.html" />
         <option value="$PROJECT_DIR$/construction.js" />
+        <option value="$PROJECT_DIR$/board.html" />
         <option value="$PROJECT_DIR$/tile.js" />
         <option value="$PROJECT_DIR$/sideMenuButtons.js" />
       </list>
@@ -209,118 +152,6 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/board.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/event.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/player.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -425,7 +256,8 @@
       <workItem from="1519224335873" duration="6253000" />
       <workItem from="1519245746126" duration="5144000" />
       <workItem from="1519280375446" duration="858000" />
-      <workItem from="1519311494353" duration="16171000" />
+      <workItem from="1519311494353" duration="16262000" />
+      <workItem from="1519368585855" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1519031426539</created>
@@ -490,20 +322,25 @@
       <option name="project" value="LOCAL" />
       <updated>1519254638983</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="citizen manage">
+      <created>1519342134317</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519342134317</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73752000" />
+    <option name="totallyTimeSpent" value="75512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1381" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -516,6 +353,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -537,7 +375,8 @@
     <MESSAGE value="Add worker system" />
     <MESSAGE value="Resource management" />
     <MESSAGE value="Building management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building management" />
+    <MESSAGE value="citizen manage" />
+    <option name="LAST_COMMIT_MESSAGE" value="citizen manage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,7 +425,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,7 +485,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -700,7 +537,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,7 +573,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,7 +609,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,7 +630,6 @@
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
             <element signature="n#!!block;n#mapLake#0" expanded="false" />
-            <element signature="n#Button#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,14 +670,6 @@
     <entry file="file://$PROJECT_DIR$/tuto/tuto1plat/part9.html" />
     <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/assets/house.png" />
-    <entry file="file://$PROJECT_DIR$/construction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -853,26 +678,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource.js">
+    <entry file="file://$PROJECT_DIR$/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player.js">
+    <entry file="file://$PROJECT_DIR$/resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="271" column="72" lean-forward="false" selection-start-line="271" selection-start-column="72" selection-end-line="271" selection-end-column="72" />
+        <state relative-caret-position="54">
+          <caret line="263" column="30" lean-forward="false" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
           <folding>
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
             <element signature="n#!!block;n#mapRiver#0" expanded="false" />
@@ -881,18 +714,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board.html">
+    <entry file="file://$PROJECT_DIR$/construction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        <state relative-caret-position="-1496">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="65" column="66" lean-forward="false" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+        <state relative-caret-position="238">
+          <caret line="128" column="86" lean-forward="false" selection-start-line="128" selection-start-column="86" selection-end-line="128" selection-end-column="86" />
           <folding />
         </state>
       </provider>
