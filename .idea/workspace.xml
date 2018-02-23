@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="">
+    <list default="true" id="a69d96fe-2788-4d60-8c52-01dd43ea865d" name="Default" comment="Collapse event + information button">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board.html" afterPath="$PROJECT_DIR$/board.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construction.js" afterPath="$PROJECT_DIR$/construction.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.js" afterPath="$PROJECT_DIR$/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideMenuButtons.js" afterPath="$PROJECT_DIR$/sideMenuButtons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tile.js" afterPath="$PROJECT_DIR$/tile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +22,8 @@
       <file leaf-file-name="construction.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/construction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1057">
-              <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -35,7 +32,7 @@
       <file leaf-file-name="sideMenuButtons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
+            <state relative-caret-position="-173">
               <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding />
             </state>
@@ -45,7 +42,7 @@
       <file leaf-file-name="tile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="1595">
               <caret line="264" column="43" lean-forward="false" selection-start-line="264" selection-start-column="43" selection-end-line="264" selection-end-column="43" />
               <folding>
                 <element signature="n#!!block;n#mapBeach#0" expanded="false" />
@@ -69,8 +66,8 @@
       <file leaf-file-name="event.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/event.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -139,9 +136,9 @@
         <option value="$PROJECT_DIR$/resource.js" />
         <option value="$PROJECT_DIR$/player.js" />
         <option value="$PROJECT_DIR$/tile.js" />
-        <option value="$PROJECT_DIR$/construction.js" />
         <option value="$PROJECT_DIR$/board.html" />
         <option value="$PROJECT_DIR$/sideMenuButtons.js" />
+        <option value="$PROJECT_DIR$/construction.js" />
         <option value="$PROJECT_DIR$/event.js" />
       </list>
     </option>
@@ -314,7 +311,7 @@
       <workItem from="1519280375446" duration="858000" />
       <workItem from="1519311494353" duration="16262000" />
       <workItem from="1519368585855" duration="1701000" />
-      <workItem from="1519376880217" duration="4129000" />
+      <workItem from="1519376880217" duration="9475000" />
     </task>
     <task id="LOCAL-00001" summary="interface">
       <created>1519031426539</created>
@@ -393,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519372210868</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Collapse event + information button">
+      <created>1519382033839</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1519382033839</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79673000" />
+    <option name="totallyTimeSpent" value="85019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1381" height="744" extended-state="6" />
@@ -442,7 +446,8 @@
     <MESSAGE value="Building management" />
     <MESSAGE value="citizen manage" />
     <MESSAGE value="information system" />
-    <option name="LAST_COMMIT_MESSAGE" value="information system" />
+    <MESSAGE value="Collapse event + information button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collapse event + information button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -752,9 +757,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="187" column="48" lean-forward="false" selection-start-line="187" selection-start-column="48" selection-end-line="187" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="1595">
           <caret line="264" column="43" lean-forward="false" selection-start-line="264" selection-start-column="43" selection-end-line="264" selection-end-column="43" />
           <folding>
             <element signature="n#!!block;n#mapBeach#0" expanded="false" />
@@ -764,34 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="187" column="48" lean-forward="false" selection-start-line="187" selection-start-column="48" selection-end-line="187" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sideMenuButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/construction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1057">
-          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>

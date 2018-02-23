@@ -2,7 +2,11 @@ function flood(ground){
     let flood= [];
     for(let i=0; i<ground.length; i++){
         for(let j=0; j<ground[i].length; j++){
-            if(ground[i][j].terrainType == 'water' && Math.random()<0.25){
+            let x = 0.25;
+            if(ground[i][j].building instanceof Dyke){
+                x = 0.025;
+            }
+            if(ground[i][j].terrainType == 'water' && Math.random()<x){
                 if(i<ground.length-1 && ground[i+1][j].terrainType != 'water'){
                     flood.push([i+1, j]);
                 }
@@ -31,9 +35,8 @@ function flood(ground){
 function collapse(ground){
     for(let i=0; i<ground.length; i++) {
         for (let j = 0; j < ground[i].length; j++) {
-            if (ground[i][j].building != null && Math.random() < 0.2) {
+            if (ground[i][j].building != null && Math.random() < 0.075) {
                 ground[i][j].destroyBuilding();
-                return 1;
             }
         }
     }

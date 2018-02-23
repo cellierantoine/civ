@@ -83,6 +83,11 @@ class Farm{
         player.rock -= FARM_R;
         this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'farm');
         this.worker = 0;
+        this.production = 1;
+        if(ground[x][y+1].terrainType === 'water' || ground[x][y-1].terrainType === 'water' ||
+            ground[x-1][y].terrainType === 'water' ||ground[x+1][y].terrainType === 'water'){
+            this.production = 2;
+        }
         menuFarm();
     }
 
@@ -100,7 +105,7 @@ class Farm{
             player.inhabitant --;
             this.worker += 1;
             citizenStack.push(this);
-            inputFood += 1*RES_FLUX;
+            inputFood += this.production*RES_FLUX;
         }
     }
 
