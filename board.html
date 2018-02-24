@@ -53,6 +53,9 @@
                 game.load.image('mine', 'assets/building/mine.png');
                 game.load.image('woodcutter', 'assets/building/woodcutter.png');
                 game.load.image('dyke', 'assets/building/dyke.png');
+                game.load.image('observatory', 'assets/building/observatory.png');
+                game.load.image('fishership', 'assets/building/fishership.png')
+                game.load.image('market', 'assets/building/market.png')
 
                 game.load.image('worker+', 'assets/worker+.png');
                 game.load.image('worker-', 'assets/worker-.png');
@@ -60,6 +63,12 @@
 
                 game.load.image('pickaxe', "assets/pickaxe.png");
                 game.load.image('axe', "assets/axe.png");
+
+                //Wonder
+                game.load.image('wonder',"assets/wonder/wonder.png");
+                game.load.image('wonder2',"assets/wonder/wonder2.png");
+                game.load.image('wonder3',"assets/wonder/wonder3.png");
+                game.load.image('wonder4',"assets/wonder/wonder4.png");
 
                 //Resources
                 game.load.image('tree', 'assets/resources/tree.png');
@@ -87,7 +96,8 @@
             var displayWood;
             var displayCitizen;
 
-            var inputFood = 0;
+            var inputFoodFarm = 0;
+            var inputFoodFish = 0;
             var inputWood = 0;
             var inputRock = 0;
 
@@ -147,7 +157,7 @@
                     player.wood += inputWood;
                     player.rock += inputRock;
                     if(player.citizen > 0 && player.food >0){
-						player.food += inputFood - (player.citizen -1)*0.5;
+						player.food += inputFoodFarm + inputFoodFish - (player.citizen -1)*0.5;
 					}
                     resource();
                     resourceTime = game.time.now;
@@ -155,7 +165,7 @@
                 
                 
 
-                if(player.food < 0 && starvation == false){
+                if(player.food <= 0 && starvation == false){
 					starvation = true;
 					citizenDecay = game.time.now;
 				}else if(player.food > 0 && starvation == true){

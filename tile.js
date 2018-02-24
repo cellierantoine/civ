@@ -120,6 +120,12 @@ class Selector{
                 menuMine();
             } else if (terrainConstruction instanceof Farm) {
                 menuFarm();
+            } else if(terrainConstruction instanceof Fishership) {
+                menuFishership();
+            } else if(terrainConstruction instanceof Observatory) {
+                menuObservatory();
+            }else if(terrainConstruction instanceof Market){
+                menuMarket();
             }
         }else{
             if (terrainType == 'grass') {
@@ -239,6 +245,24 @@ class Tile {
     buildWoodcutter(){
         if(player.wood >= WOODCUTTER_W && player.food >= WOODCUTTER_F && player.rock >= WOODCUTTER_R) {
             this.building = new Woodcutter(this.x, this.y);
+        }
+    }
+
+    buildFishership(){
+        if(player.wood >= FISHERSHIP_W && player.food >= FISHERSHIP_F && player.rock >= FISHERSHIP_R) {
+            this.building = new Fishership(this.x, this.y);
+        }
+    }
+
+    buildObservatory(){
+        if(player.wood >= OBSERVATORY_W && player.food >= OBSERVATORY_F && player.rock >= OBSERVATORY_R) {
+            this.building = new Observatory(this.x, this.y);
+        }
+    }
+
+    buildMarket(){
+        if(player.wood >= MARKET_W && player.food >= MARKET_F && player.rock >= MARKET_R) {
+            this.building = new Market(this.x, this.y);
         }
     }
 

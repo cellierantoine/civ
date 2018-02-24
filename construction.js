@@ -105,14 +105,14 @@ class Farm{
             player.inhabitant --;
             this.worker += 1;
             citizenStack.push(this);
-            inputFood += this.production*RES_FLUX;
+            inputFoodFarm += this.production*RES_FLUX;
         }
     }
 
     removeWorker(){
         if(this.worker>0){
             this.worker -= 1;
-            inputFood -=1*RES_FLUX;
+            inputFoodFarm -=this.production*RES_FLUX;
             citizenStack.splice(citizenStack.indexOf(this), 1);
             player.inhabitant += 1;
         }
@@ -188,5 +188,91 @@ class Woodcutter{
 
     information(){
         return this.worker+" / 4 workers";
+    }
+}
+
+//FISHERSHIP MATERIALS
+var FISHERSHIP_F = 0;
+var FISHERSHIP_R = 0;
+var FISHERSHIP_W = 250;
+
+class Fishership{
+    constructor(x, y){
+        player.wood -= FISHERSHIP_W;
+        player.food -= FISHERSHIP_F;
+        player.rock -= FISHERSHIP_R;
+        this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'fishership');
+        this.worker = 0;
+        this.production = 1.5;
+        menuFishership();
+    }
+
+    destructor(){
+        this.sprite.destroy();
+        let x = this.worker;
+        for(let i = 0; i<x; i++){
+            this.removeWorker();
+        }
+        menuWater();
+    }
+
+    addWorker(){
+        if(this.worker<4){            
+            player.inhabitant --;
+            this.worker += 1;
+            citizenStack.push(this);
+            inputFoodFish += this.production*RES_FLUX;
+        }
+    }
+
+    removeWorker(){
+        if(this.worker>0){
+            this.worker -= 1;
+            inputFoodFish -=this.production*RES_FLUX;
+            citizenStack.splice(citizenStack.indexOf(this), 1);
+            player.inhabitant += 1;
+        }
+    }
+
+    information(){
+        return this.worker+" / 4 workers";
+    }
+}
+
+//OBSERVATORY MATERIALS
+var OBSERVATORY_F = 0;
+var OBSERVATORY_R = 200;
+var OBSERVATORY_W = 400;
+class Observatory{
+    constructor(x, y){
+        player.wood -= OBSERVATORY_W;
+        player.food -= OBSERVATORY_F;
+        player.rock -= OBSERVATORY_R;
+        this.sprite = game.add.sprite(x * TILE_SIZE, y * TILE_SIZE + TOP_BAR_SIZE, 'observatory');
+        menuObservatory();
+    }
+
+    destructor(){
+        this.sprite.destroy();
+        menuGrass();
+    }
+}
+
+//MARKET MATERIALS
+var MARKET_F = 0;
+var MARKET_R = 400;
+var MARKET_W = 200;
+class Market{
+    constructor(x, y){
+        player.wood -= MARKET_W;
+        player.food -= MARKET_F;
+        player.rock -= MARKET_R;
+        this.sprite = game.add.sprite(x * TILE_SIZE, y * TILE_SIZE + TOP_BAR_SIZE, 'market');
+        menuMarket();
+    }
+
+    destructor(){
+        this.sprite.destroy();
+        menuGrass();
     }
 }
