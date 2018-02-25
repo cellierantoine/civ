@@ -41,3 +41,12 @@ function collapse(ground){
         }
     }
 }
+
+var droughtFarm = false;
+function drought(){
+    if(droughtFarm){
+        droughtFarm = false;
+    }else{
+        droughtFarm = true;
+    }
+}

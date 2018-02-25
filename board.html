@@ -39,6 +39,9 @@
                 game.load.image('citizen', 'assets/ui/citizen.png');
                 game.load.image('wood', 'assets/ui/wood.png');
                 game.load.image('information', 'assets/info.png')
+                game.load.image('gold', 'assets/ui/gold.png');
+                game.load.image('previouspage', 'assets/ui/previouspage.png');
+                game.load.image('nextpage', 'assets/ui/nextpage.png');
 
 
                 //Tiles
@@ -54,8 +57,22 @@
                 game.load.image('woodcutter', 'assets/building/woodcutter.png');
                 game.load.image('dyke', 'assets/building/dyke.png');
                 game.load.image('observatory', 'assets/building/observatory.png');
-                game.load.image('fishership', 'assets/building/fishership.png')
-                game.load.image('market', 'assets/building/market.png')
+                game.load.image('fishership', 'assets/building/fishership.png');
+                game.load.image('market', 'assets/building/market.png');
+
+                game.load.image('food+', 'assets/menu/food+.png');
+                game.load.image('food-', 'assets/menu/food-.png');
+                game.load.image('wood+', 'assets/menu/wood+.png');
+                game.load.image('wood-', 'assets/menu/wood-.png');
+                game.load.image('rock+', 'assets/menu/rock+.png');
+                game.load.image('rock-', 'assets/menu/rock-.png');
+
+                game.load.image('goldF+', 'assets/menu/goldF+');
+                game.load.image('goldF-', 'assets/menu/goldF-');
+                game.load.image('goldW+', 'assets/menu/goldW+');
+                game.load.image('goldW-', 'assets/menu/goldW-');
+                game.load.image('goldR+', 'assets/menu/goldR+');
+                game.load.image('goldR-', 'assets/menu/goldR-');
 
                 game.load.image('worker+', 'assets/worker+.png');
                 game.load.image('worker-', 'assets/worker-.png');
@@ -76,6 +93,7 @@
             }
 
 
+            //UI
             var ground = [];
             var start;
             var resourceTime;
@@ -91,16 +109,32 @@
 
             var player = new Player();
 
+            var displayGold;
             var displayFood;
             var displayRock;
             var displayWood;
             var displayCitizen;
 
+            //Resource system
             var inputFoodFarm = 0;
             var inputFoodFish = 0;
             var inputWood = 0;
             var inputRock = 0;
+            var inputGold = 0;
 
+            //Resource Market System
+            var tradeRock = 0;
+            var tradeWood = 0;
+            var tradeFood = 0;
+
+            var tradeRouteFoodIn = [];
+            var tradeRouteWoodIn = [];
+            var tradeRouteRockIn = [];
+            var tradeRouteFoodOut = [];
+            var tradeRouteWoodOut = [];
+            var tradeRouteRockOut = [];
+
+            //Starvation and citizen system
 			var starvation = false;
 			var citizenDecay;
 			var citizenGrow;
@@ -115,11 +149,13 @@
                 game.add.sprite(175, 16, 'stone');
                 game.add.sprite(325, 16, 'wood');
                 game.add.sprite(475, 16, 'citizen');
+                game.add.sprite(625, 16, 'gold');
 
-                displayFood = game.add.text(65, 20, player.food, { font: "20px Arial", fill: "#000000", align: "center" });
-                displayRock = game.add.text(215, 20, player.rock, { font: "20px Arial", fill: "#000000", align: "center" });
-                displayWood = game.add.text(365, 20, player.wood, { font: "20px Arial", fill: "#000000", align: "center" });
-                displayCitizen = game.add.text(515, 20, player.inhabitant, { font: "20px Arial", fill: "#000000", align: "center" });
+                displayFood = game.add.text(65, 20, player.food.toString(), { font: "20px Arial", fill: "#000000", align: "center" });
+                displayRock = game.add.text(215, 20, player.rock.toString(), { font: "20px Arial", fill: "#000000", align: "center" });
+                displayWood = game.add.text(365, 20, player.wood.toString(), { font: "20px Arial", fill: "#000000", align: "center" });
+                displayCitizen = game.add.text(515, 20, player.inhabitant + "/" + player.citizen, { font: "20px Arial", fill: "#000000", align: "center" });
+                displayGold = game.add.text(665, 20, player.gold.toString(), { font: "20px Arial", fill: "#000000", align: "center" });
 
                 mapLake(ground);
 
@@ -144,6 +180,8 @@
             }
 
             function update() {
+                let i;
+
                 if(game.time.now > start+5000){
                     //flood(ground);
                     start = game.time.now;
@@ -154,11 +192,52 @@
                 }
                 
                 if(game.time.now > resourceTime+1000){
-                    player.wood += inputWood;
-                    player.rock += inputRock;
-                    if(player.citizen > 0 && player.food >0){
-						player.food += inputFoodFarm + inputFoodFish - (player.citizen -1)*0.5;
-					}
+                    player.wood += inputWood + tradeWood;
+                    player.rock += inputRock + tradeRock;
+                    player.gold += inputGold;
+                    if(player.food >0){
+                        let x = (player.citizen-1)*0.5;
+                        if(player.citizen == 0){
+                            x = 0;
+                        }
+                        if(droughtFarm){
+                            player.food += inputFoodFish - x + tradeFood;
+                        }else{
+                            player.food += inputFoodFarm + inputFoodFish - x + tradeFood;
+                        }
+                    }
+                    
+                    if(player.food <= 0){
+                        player.food = 0;
+                        for(i = 0; i<tradeRouteFoodOut.length; i++){
+                            tradeRouteFoodOut[i].removeTradeRouteOut('food');
+                        }
+                    }
+                    if(player.wood <= 0){
+                        player.wood = 0;
+                        for(i = 0; i<tradeRouteWoodOut.length; i++){
+                            tradeRouteWoodOut[i].removeTradeRouteOut('wood');
+                        }
+                    }
+                    if(player.rock <= 0){
+                        player.rock = 0;
+                        for(i = 0; i<tradeRouteRockOut.length; i++){
+                            tradeRouteRockOut[i].removeTradeRouteOut('rock');
+                        }
+                    }
+                    if(player.gold <= 0){
+                        player.gold = 0;
+                        for(i = 0; i<tradeRouteFoodIn.length; i++){
+                            tradeRouteFoodIn[i].removeTradeRouteIn('food');
+                        }
+                        for(i = 0; i<tradeRouteWoodIn.length; i++){
+                            tradeRouteWoodIn[i].removeTradeRouteIn('wood');
+                        }
+                        for(i = 0; i<tradeRouteRockIn.length; i++){
+                            tradeRouteRockIn[i].removeTradeRouteIn('rock');
+                        }
+                        
+                    }
                     resource();
                     resourceTime = game.time.now;
                 }
@@ -166,7 +245,7 @@
                 
 
                 if(player.food <= 0 && starvation == false){
-					starvation = true;
+                    starvation = true;
 					citizenDecay = game.time.now;
 				}else if(player.food > 0 && starvation == true){
 					starvation = false;
@@ -191,7 +270,6 @@
 
                 if(player.citizenCap < player.citizen){
 				    let delta = player.citizen - player.citizenCap;
-				    console.log(delta);
                     player.citizen = player.citizenCap;
                     for(let i=0; i<delta; i++){
                         player.inhabitant --;
@@ -200,7 +278,6 @@
                         }
                     }
                 }
-
             }
 
             function click(event, ground, selector){
@@ -270,11 +347,13 @@
                 displayRock.destroy();
                 displayWood.destroy();
                 displayCitizen.destroy();
+                displayGold.destroy();
 
-                displayFood = game.add.text(65, 20, player.food, style);
-                displayRock = game.add.text(215, 20, player.rock, style);
-                displayWood = game.add.text(365, 20, player.wood, style);
+                displayFood = game.add.text(65, 20, player.food.toString(), style);
+                displayRock = game.add.text(215, 20, player.rock.toString(), style);
+                displayWood = game.add.text(365, 20, player.wood.toString(), style);
                 displayCitizen = game.add.text(515, 20, player.inhabitant + "/" + player.citizen, style);
+                displayGold = game.add.text(665, 20, player.gold.toString(), style);
             }
             
 

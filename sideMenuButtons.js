@@ -164,15 +164,30 @@ function menuFishership(){
 }
 
 function menuMarket(){
-    buttons[0].updateButton(-1, "");
-    buttons[1].updateButton(-1, "");
-    buttons[2].updateButton(-1, "");
-    buttons[3].updateButton(-1, "");
-    buttons[4].updateButton(-1, "");
-    buttons[5].updateButton(-1, "");
+    buttons[0].updateButton('food+', "Export food", selector.tileSelected.addTradeRouteFoodOut);
+    buttons[1].updateButton('food-', "Stop exporting food", selector.tileSelected.removeTradeRouteFoodOut);
+    buttons[2].updateButton('wood+', "Export wood", selector.tileSelected.addTradeRouteWoodOut);
+    buttons[3].updateButton('wood-', "Stop exporting wood", selector.tileSelected.removeTradeRouteWoodOut);
+    buttons[4].updateButton('rock+', "Export rock", selector.tileSelected.addTradeRouteRockOut);
+    buttons[5].updateButton('rock-', "Stop exporting rock", selector.tileSelected.removeTradeRouteRockOut);
     buttons[6].updateButton(-1, "");
     buttons[7].updateButton(-1, "");
     buttons[8].updateButton(-1, "");
+    buttons[9].updateButton('nextpage', "Import resources", selector.tileSelected.nextPage);
+    buttons[10].updateButton(-1, "");
+    buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
+}
+
+function menuMarket2(){
+    buttons[0].updateButton('goldF+', "Import food", selector.tileSelected.addTradeRouteFoodIn);
+    buttons[1].updateButton('goldF-', "Stop importing food", selector.tileSelected.removeTradeRouteFoodIn);
+    buttons[2].updateButton('goldW+', "Import wood", selector.tileSelected.addTradeRouteWoodIn);
+    buttons[3].updateButton('goldW-', "Stop importing wood", selector.tileSelected.removeTradeRouteWoodIn);
+    buttons[4].updateButton('goldR+', "import rock", selector.tileSelected.addTradeRouteRockIn);
+    buttons[5].updateButton('goldR-', "Stop importing rock", selector.tileSelected.removeTradeRouteRockIn);
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton('previouspage', "export resources", selector.tileSelected.previousPage);
     buttons[9].updateButton(-1, "");
     buttons[10].updateButton(-1, "");
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);

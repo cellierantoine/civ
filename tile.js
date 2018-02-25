@@ -265,6 +265,64 @@ class Tile {
             this.building = new Market(this.x, this.y);
         }
     }
+    //Market methods
+    addTradeRouteFoodIn(){
+        this.building.addTradeRouteIn('food');
+    }
+
+    addTradeRouteFoodOut(){
+        this.building.addTradeRouteOut('food');
+    }
+
+    addTradeRouteWoodIn(){
+        this.building.addTradeRouteIn('wood');
+    }
+
+    addTradeRouteWoodOut(){
+        this.building.addTradeRouteOut('wood');
+    }
+
+    addTradeRouteRockIn(){
+        this.building.addTradeRouteIn('rock');
+    }
+
+    addTradeRouteRockOut(){
+        this.building.addTradeRouteOut('rock');
+    }
+    
+    removeTradeRouteFoodIn(){
+        this.building.removeTradeRouteIn('food');
+    }
+
+    removeTradeRouteFoodOut(){
+        this.building.removeTradeRouteOut('food');
+    }
+
+    removeTradeRouteWoodIn(){
+        this.building.removeTradeRouteIn('wood');
+    }
+
+    removeTradeRouteWoodOut(){
+        this.building.removeTradeRouteOut('wood');
+    }
+
+    removeTradeRouteRockIn(){
+        this.building.removeTradeRouteIn('rock');
+    }
+
+    removeTradeRouteRockOut(){
+        this.building.removeTradeRouteOut('rock');
+    }
+
+    nextPage(){
+        menuMarket2();
+    }
+
+    previousPage(){
+        menuMarket();
+    }
+    
+
 
     //Destroy methods
     destroyBuilding(){

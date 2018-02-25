@@ -42,7 +42,6 @@ class Mine{
         this.sprite.destroy();
         let x = this.worker;
         for(let i = 0; i<x; i++){
-            console.log(i+" "+this.worker);
             this.removeWorker();
         }
         menuRock();
@@ -77,7 +76,7 @@ var FARM_R = 20;
 var FARM_W = 80;
 
 class Farm{
-    constructor(x, y){
+    dtructor(x, y){
         player.wood -= FARM_W;
         player.food -= FARM_F;
         player.rock -= FARM_R;
@@ -267,12 +266,125 @@ class Market{
         player.wood -= MARKET_W;
         player.food -= MARKET_F;
         player.rock -= MARKET_R;
+
+        this.tradeRouteNumber = 0;
+
         this.sprite = game.add.sprite(x * TILE_SIZE, y * TILE_SIZE + TOP_BAR_SIZE, 'market');
         menuMarket();
     }
 
     destructor(){
+        let i;
         this.sprite.destroy();
+        if(this.tradeRouteNumber > 0){
+            for(i = tradeRouteFoodIn.length-1; i>=0; i--){
+                if(tradeRouteFoodIn[i] === this){
+                    this.removeTradeRouteIn('food');
+                }
+            }
+            for(i = tradeRouteWoodIn.length-1; i>=0; i--){
+                if(tradeRouteWoodIn[i] === this){
+                    this.removeTradeRouteIn('wood');
+                }
+            }
+            for(i = tradeRouteRockIn.length-1; i>=0; i--){
+                if(tradeRouteRockIn[i] === this){
+                    this.removeTradeRouteIn('rock');
+                }
+            }
+            for(i = tradeRouteFoodOut.length-1; i>=0; i--){
+                if(tradeRouteFoodOut[i] === this){
+                    this.removeTradeRouteOut('food');
+                }
+            }
+            for(i = tradeRouteWoodOut.length-1; i>=0; i--){
+                if(tradeRouteWoodOut[i] === this){
+                    this.removeTradeRouteOut('wood');
+                }
+            }
+            for(i = tradeRouteRockOut.length-1; i>=0; i--){
+                if(tradeRouteRockOut[i] === this){
+                    this.removeTradeRouteOut('rock');
+                }
+            }
+        }
+
         menuGrass();
+    }
+
+    addTradeRouteIn(resource){
+        if(this.tradeRouteNumber < 2){
+            if(resource == 'food'){
+                tradeFood += 1;
+                inputGold -= 2;
+                tradeRouteFoodIn.push(this);
+            }else if(resource == 'rock'){
+                tradeRock += 1;
+                inputGold -= 2;
+                tradeRouteRockIn.push(this);
+            }else if(resource == 'wood'){
+                tradeWood += 1;
+                inputGold -= 2;
+                tradeRouteWoodIn.push(this);
+            }
+            this.tradeRouteNumber += 1;
+        }
+    }
+
+    removeTradeRouteIn(resource){
+        if(this.tradeRouteNumber > 0){
+            if(resource == 'food'){
+                tradeFood -= 1;
+                inputGold += 2;
+                tradeRouteFoodIn.splice(tradeRouteFoodIn.indexOf(this), 1);
+            }else if(resource == 'rock'){
+                tradeRock -= 1;
+                inputGold += 2;
+                tradeRouteRockIn.splice(tradeRouteRockIn.indexOf(this), 1);
+            }else if(resource == 'wood'){
+                tradeWood -= 1;
+                inputGold += 2;
+                tradeRouteWoodIn.splice(tradeRouteWoodIn.indexOf(this), 1);
+            }
+            this.tradeRouteNumber -= 1;
+        }
+    }
+
+    addTradeRouteOut(resource){
+        if(this.tradeRouteNumber < 2){
+            if(resource == 'food'){
+                tradeFood -= 1;
+                inputGold += 1;
+                tradeRouteFoodOut.push(this);
+            }else if(resource == 'rock'){
+                tradeRock -= 1;
+                inputGold += 1;
+                tradeRouteRockOut.push(this);
+            }else if(resource == 'wood'){
+                tradeWood -= 1;
+                inputGold += 1;
+                tradeRouteWoodOut.push(this);
+            }
+            this.tradeRouteNumber += 1;
+        }
+    }
+
+    removeTradeRouteOut(resource){
+        if(this.tradeRouteNumber > 0){
+            if(resource == 'food'){
+                tradeFood += 1;
+                inputGold -= 1;
+                tradeRouteFoodOut.splice(tradeRouteFoodOut.indexOf(this), 1);
+            }else if(resource == 'rock'){
+                tradeRock += 1;
+                inputGold -= 1;
+                tradeRouteRockOut.splice(tradeRouteRockOut.indexOf(this), 1);
+            }else if(resource == 'wood'){
+                tradeWood += 1;
+                inputGold -= 1;
+                tradeRouteWoodOut.splice(tradeRouteWoodOut.indexOf(this), 1);
+            }
+            this.tradeRouteNumber -= 1;
+        }
     }
 }
