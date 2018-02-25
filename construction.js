@@ -76,7 +76,7 @@ var FARM_R = 20;
 var FARM_W = 80;
 
 class Farm{
-    dtructor(x, y){
+    constructor(x, y){
         player.wood -= FARM_W;
         player.food -= FARM_F;
         player.rock -= FARM_R;
