@@ -126,6 +126,8 @@ class Selector{
                 menuObservatory();
             }else if(terrainConstruction instanceof Market){
                 menuMarket();
+            }else if(terrainConstruction instanceof Wonder){
+                menuWonder(terrainConstruction);
             }
         }else{
             if (terrainType == 'grass') {
@@ -265,6 +267,13 @@ class Tile {
             this.building = new Market(this.x, this.y);
         }
     }
+
+    buildWonder(){
+        if(player.wood >= WONDER_W && player.food >= WONDER_F && player.rock >= WONDER_R) {
+            this.building = new Wonder(this.x, this.y);
+        }
+    }
+
     //Market methods
     addTradeRouteFoodIn(){
         this.building.addTradeRouteIn('food');
@@ -322,7 +331,33 @@ class Tile {
         menuMarket();
     }
     
+    //Wonder methods
+    firstUpgrade(){
+        if(player.wood >= this.building.woodNextUpgrade 
+            && player.food >= this.building.foodNextUpgrade 
+            && player.rock >= this.building.rockNextUpgrade 
+            && player.gold >= this.building.goldNextUpgrade) {
+            this.building.firstUpgrade();
+        }
+    }
 
+    secondUpgrade(){
+        if(player.wood >= this.building.woodNextUpgrade 
+            && player.food >= this.building.foodNextUpgrade 
+            && player.rock >= this.building.rockNextUpgrade 
+            && player.gold >= this.building.goldNextUpgrade) {
+            this.building.secondUpgrade();
+            }
+    }
+
+    thirdUpgrade(){
+        if(player.wood >= this.building.woodNextUpgrade 
+            && player.food >= this.building.foodNextUpgrade 
+            && player.rock >= this.building.rockNextUpgrade 
+            && player.gold >= this.building.goldNextUpgrade) {
+            this.building.thirdUpgrade();
+        }
+    }
 
     //Destroy methods
     destroyBuilding(){

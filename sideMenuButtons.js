@@ -19,12 +19,13 @@ function menuGrass(){
     let farmTxt = "Farm\nFood : "+FARM_F+"\nLumber : "+FARM_W+"\nStone : "+FARM_R;
     let observatoryTxt = "Observatory\nFood : "+OBSERVATORY_F+"\nLumber : "+OBSERVATORY_W+"\nStone : "+OBSERVATORY_R;
     let marketTxt = "Market\nFood : "+MARKET_F+"\nLumber : "+MARKET_W+"\nStone : "+MARKET_R;
+    let wonderTxt = "Wonder\nFood : "+WONDER_F+"\nLumber : "+WONDER_W+"\nStone : "+WONDER_R;
 
     buttons[0].updateButton('house', houseTxt, selector.tileSelected.buildHouse);
     buttons[1].updateButton('farm', farmTxt, selector.tileSelected.buildFarm);
     buttons[2].updateButton('observatory', observatoryTxt, selector.tileSelected.buildObservatory);
     buttons[3].updateButton('market', marketTxt, selector.tileSelected.buildMarket);
-    buttons[4].updateButton(-1, "");
+    buttons[4].updateButton('wonder', wonderTxt, selector.tileSelected.buildWonder);
     buttons[5].updateButton(-1, "");
     buttons[6].updateButton(-1, "");
     buttons[7].updateButton(-1, "");
@@ -195,6 +196,43 @@ function menuMarket2(){
 
 function menuObservatory(){
     buttons[0].updateButton(-1, "");
+    buttons[1].updateButton(-1, "");
+    buttons[2].updateButton(-1, "");
+    buttons[3].updateButton(-1, "");
+    buttons[4].updateButton(-1, "");
+    buttons[5].updateButton(-1, "");
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton(-1, "");
+    buttons[9].updateButton(-1, "");
+    buttons[10].updateButton(-1, "");
+    buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
+}
+
+//Wonder
+function menuWonder(wonder){
+    let WonderUpgradeTxt = "";
+    if(wonder.stage == 1){
+        WonderUpgradeTxt = "First upgrade\nFood : "+ wonder.foodNextUpgrade +
+                            "\nLumber : "+ wonder.rockNextUpgrade +
+                            "\nStone : " + wonder.rockNextUpgrade +
+                            "\nGold : " + wonder.goldNextUpgrade;
+        buttons[0].updateButton('wonder2', WonderUpgradeTxt, selector.tileSelected.firstUpgrade);
+    }else if(wonder.stage == 2){
+        WonderUpgradeTxt = "Second upgrade\nFood : "+ wonder.foodNextUpgrade +
+        "\nLumber : "+ wonder.rockNextUpgrade +
+        "\nStone : " + wonder.rockNextUpgrade +
+        "\nGold : " + wonder.goldNextUpgrade;
+        buttons[0].updateButton('wonder3', WonderUpgradeTxt, selector.tileSelected.secondUpgrade);
+    }else if(wonder.stage == 3){
+        WonderUpgradeTxt = "Third upgrade\nFood : "+ wonder.foodNextUpgrade +
+        "\nLumber : "+ wonder.rockNextUpgrade +
+        "\nStone : " + wonder.rockNextUpgrade +
+        "\nGold : " + wonder.goldNextUpgrade;
+        buttons[0].updateButton('wonder4', WonderUpgradeTxt, selector.tileSelected.thirdUpgrade);
+    }else if(wonder.stage == 4){
+        buttons[0].updateButton(-1, "");
+    }
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");

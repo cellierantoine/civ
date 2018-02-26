@@ -23,6 +23,10 @@ function flood(ground){
         }
     }
     for(let x=0; x<flood.length; x++){
+        if(ground[flood[x][0]][flood[x][1]].building instanceof Wonder){
+            continue;
+        }
+
         ground[flood[x][0]][flood[x][1]].resource = null;
         if(ground[flood[x][0]][flood[x][1]].building != null){
             ground[flood[x][0]][flood[x][1]].destroyBuilding();
@@ -35,7 +39,7 @@ function flood(ground){
 function collapse(ground){
     for(let i=0; i<ground.length; i++) {
         for (let j = 0; j < ground[i].length; j++) {
-            if (ground[i][j].building != null && Math.random() < 0.075) {
+            if (ground[i][j].building != null && Math.random() < 0.075 && !(ground[i][j].building instanceof Wonder)) {
                 ground[i][j].destroyBuilding();
             }
         }

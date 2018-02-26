@@ -388,3 +388,80 @@ class Market{
         }
     }
 }
+
+
+//WONDER MATERIALS
+WONDER_W = 250;
+WONDER_F = 300;
+WONDER_R = 750;
+WONDER_G = 0;
+
+class Wonder{
+    constructor(x, y){
+        player.wood -= WONDER_W;
+        player.food -= WONDER_F;
+        player.rock -= WONDER_R;
+        player.gold -= WONDER_G
+
+        this.stage = 1;
+        this.x = x;
+        this.y = y;
+
+        this.rockNextUpgrade = 750;
+        this.foodNextUpgrade = 500;
+        this.woodNextUpgrade = 300;
+        this.goldNextUpgrade = 200;
+
+        this.sprite = game.add.sprite(x * TILE_SIZE, y * TILE_SIZE + TOP_BAR_SIZE, 'wonder');
+        menuWonder(this);
+    }
+
+    destructor(){
+        this.sprite.destroy();
+        menuGrass();
+    }
+
+    firstUpgrade(){
+        player.wood -= this.woodNextUpgrade;
+        player.food -= this.foodNextUpgrade;
+        player.rock -= this.rockNextUpgrade;
+        player.gold -= this.goldNextUpgrade;
+
+        this.sprite.destroy();
+        this.sprite = game.add.sprite(this.x * TILE_SIZE, this.y * TILE_SIZE + TOP_BAR_SIZE, 'wonder2');
+        this.stage ++;
+        this.foodNextUpgrade = 700;
+        this.rockNextUpgrade = 1100;
+        this.woodNextUpgrade = 400;
+        this.goldNextUpgrade = 450;
+        menuWonder(this);
+    }
+
+    secondUpgrade(){
+        player.wood -= this.woodNextUpgrade;
+        player.food -= this.foodNextUpgrade;
+        player.rock -= this.rockNextUpgrade;
+        player.gold -= this.goldNextUpgrade;
+
+        this.sprite.destroy();
+        this.sprite = game.add.sprite(this.x * TILE_SIZE, this.y * TILE_SIZE + TOP_BAR_SIZE, 'wonder3');
+        this.stage ++;
+        this.rockNextUpgrade = 1500;
+        this.foodNextUpgrade = 1000;
+        this.woodNextUpgrade = 500;
+        this.goldNextUpgrade = 1000;
+        menuWonder(this);
+    }
+
+    thirdUpgrade(){
+        player.wood -= this.woodNextUpgrade;
+        player.food -= this.foodNextUpgrade;
+        player.rock -= this.rockNextUpgrade;
+        player.gold -= this.goldNextUpgrade;
+
+        this.sprite.destroy();
+        this.sprite = game.add.sprite(this.x * TILE_SIZE, this.y * TILE_SIZE + TOP_BAR_SIZE, 'wonder4');
+        this.stage ++;
+        menuWonder(this);
+    }
+}
