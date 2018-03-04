@@ -20,7 +20,7 @@ function menuGrass(){
     let observatoryTxt = "Observatory\nFood : "+OBSERVATORY_F+"\nLumber : "+OBSERVATORY_W+"\nStone : "+OBSERVATORY_R;
     let marketTxt = "Market\nFood : "+MARKET_F+"\nLumber : "+MARKET_W+"\nStone : "+MARKET_R;
     let wonderTxt = "Wonder\nFood : "+WONDER_F+"\nLumber : "+WONDER_W+"\nStone : "+WONDER_R;
-    let keepTxt = "Wonder\nFood : "+KEEP_F+"\nLumber : "+KEEP_W+"\nStone : "+KEEP_R;
+    let keepTxt = "Keep\nFood : "+KEEP_F+"\nLumber : "+KEEP_W+"\nStone : "+KEEP_R;
 
     buttons[0].updateButton('house', houseTxt, selector.tileSelected.buildHouse);
     buttons[1].updateButton('farm', farmTxt, selector.tileSelected.buildFarm);
