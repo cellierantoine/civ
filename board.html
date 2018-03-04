@@ -86,8 +86,14 @@
 			var starvation = false;
 			var citizenDecay;
 			var citizenGrow;
-			var citizenStack = [];
-
+            var citizenStack = [];
+            
+            function clickMenu(){
+                if(event.pageX > 380 && event.pageY > 280 && event.pageX < 720 && event.pageY < 420){
+                    document.removeEventListener("click", clickMenu);
+                    game.state.start('game');
+                }
+            }
 
             function click(event, ground, selector){
                 if(event.pageX < 872- SIDE_BAR_SIZE && event.pageY > TOP_BAR_SIZE){

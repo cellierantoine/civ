@@ -75,11 +75,14 @@ var menuState = {
 
         game.load.image('victory', 'assets/victory.png');
         game.load.image('defeat', 'assets/defeat.png');
-        game.load.image('menu', 'assets/menu.png');
+        game.load.image('menu', 'assets/backgroundMenu.png');
     }, 
 
     create : function() {
         game.add.sprite(0, 0, 'menu');
+
+        document.addEventListener("click", clickMenu);
+
     }
 }
 
@@ -103,7 +106,14 @@ var gameState = {
         displayCitizen = game.add.text(515, 20, player.inhabitant + "/" + player.citizen, { font: "20px Arial", fill: "#000000", align: "center" });
         displayGold = game.add.text(665, 20, player.gold.toString(), { font: "20px Arial", fill: "#000000", align: "center" });
 
-        mapLake(ground);
+        let a = Math.random();
+        if(a < 0.33){
+            mapLake(ground);
+        }else if(a < 0.67){
+            mapBeach(ground);
+        }else{
+            mapRiver(ground);
+        }
 
 
         //SELECTOR
@@ -130,11 +140,6 @@ var gameState = {
 
     update : function() {
         let i;
-
-        if(game.time.now > start+5000){
-            //flood(ground);
-            start = game.time.now;
-        }
 
         if(x>692 && x<853 && y>99 && y<561){
             selector.hoverSideMenu(x, y);
