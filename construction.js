@@ -238,6 +238,53 @@ class Fishership{
     }
 }
 
+//KEEP MATERIALS
+var KEEP_F = 0;
+var KEEP_R = 350;
+var KEEP_W = 100;
+
+class Keep{
+    constructor(x, y){
+        player.wood -= KEEP_W;
+        player.food -= KEEP_F;
+        player.rock -= KEEP_R;
+        this.sprite = game.add.sprite(x*TILE_SIZE, y*TILE_SIZE + TOP_BAR_SIZE, 'keep');
+        this.worker = 0;
+
+        menuKeep();
+    }
+
+    destructor(){
+        this.sprite.destroy();
+        let x = this.worker;
+        for(let i = 0; i<x; i++){
+            this.removeWorker();
+        }
+        menuWater();
+    }
+
+    addWorker(){
+        if(this.worker<4){            
+            player.inhabitant --;
+            this.worker += 1;
+            citizenStack.push(this);
+        }
+    }
+
+    removeWorker(){
+        if(this.worker>0){
+            this.worker -= 1;
+            citizenStack.splice(citizenStack.indexOf(this), 1);
+            player.inhabitant += 1;
+        }
+    }
+
+    information(){
+        return this.worker+" / 4 soldiers";
+    }
+}
+
+
 //OBSERVATORY MATERIALS
 var OBSERVATORY_F = 0;
 var OBSERVATORY_R = 200;

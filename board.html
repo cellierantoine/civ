@@ -59,6 +59,7 @@
                 game.load.image('observatory', 'assets/building/observatory.png');
                 game.load.image('fishership', 'assets/building/fishership.png');
                 game.load.image('market', 'assets/building/market.png');
+                game.load.image('keep', 'assets/building/keep.png');
 
                 game.load.image('food+', 'assets/menu/food+.png');
                 game.load.image('food-', 'assets/menu/food-.png');
@@ -81,6 +82,8 @@
                 game.load.image('pickaxe', "assets/pickaxe.png");
                 game.load.image('axe', "assets/axe.png");
 
+                game.load.image('sky', 'assets/moonsky.png');
+
                 //Wonder
                 game.load.image('wonder',"assets/wonder/wonder.png");
                 game.load.image('wonder2',"assets/wonder/wonder2.png");
@@ -98,6 +101,8 @@
             var start;
             var resourceTime;
             var selector;
+            var disaster = null;
+            var eraNumber = 0;
 
             var x;
             var y;
@@ -177,6 +182,8 @@
                 }
 
                 displayText = game.add.text(700, 600, "", {font: "12px Arial", fill: "#000000", align: "center"});
+
+                game.time.events.repeat(Phaser.Timer.SECOND * 240, 5, era);
             }
 
             function update() {

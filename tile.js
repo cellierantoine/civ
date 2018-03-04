@@ -128,6 +128,8 @@ class Selector{
                 menuMarket();
             }else if(terrainConstruction instanceof Wonder){
                 menuWonder(terrainConstruction);
+            }else if(terrainConstruction instanceof Keep){
+                menuKeep();
             }
         }else{
             if (terrainType == 'grass') {
@@ -259,6 +261,12 @@ class Tile {
     buildObservatory(){
         if(player.wood >= OBSERVATORY_W && player.food >= OBSERVATORY_F && player.rock >= OBSERVATORY_R) {
             this.building = new Observatory(this.x, this.y);
+        }
+    }
+
+    buildKeep(){
+        if(player.wood >= KEEP_W && player.food >= KEEP_F && player.rock >= KEEP_R) {
+            this.building = new Keep(this.x, this.y);
         }
     }
 

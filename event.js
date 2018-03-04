@@ -1,4 +1,4 @@
-function flood(ground){
+function flood(){
     let flood= [];
     for(let i=0; i<ground.length; i++){
         for(let j=0; j<ground[i].length; j++){
@@ -36,10 +36,10 @@ function flood(ground){
 }
 
 
-function collapse(ground){
+function collapse(x){
     for(let i=0; i<ground.length; i++) {
         for (let j = 0; j < ground[i].length; j++) {
-            if (ground[i][j].building != null && Math.random() < 0.075 && !(ground[i][j].building instanceof Wonder)) {
+            if (ground[i][j].building != null && Math.random() < x && !(ground[i][j].building instanceof Wonder)) {
                 ground[i][j].destroyBuilding();
             }
         }
@@ -53,4 +53,83 @@ function drought(){
     }else{
         droughtFarm = true;
     }
+}
+
+function fire(x){
+    for(let i=0; i<ground.length; i++) {
+        for (let j = 0; j < ground[i].length; j++) {
+            if(ground[i][j].resource instanceof Wood && Math.random() < x){
+                if(ground[i][j].building instanceof Woodcutter){
+                    ground[i][j].building.destructor();
+                    ground[i][j].building = null;
+                }
+                ground[i][j].resource.destructor();
+                ground[i][j].resource = null;
+            }
+        }
+    }
+}
+
+
+function invasion(x){
+    let army = 0;
+    let soldier = 0;
+
+    for(let i=0; i<ground.length; i++) {
+        for (let j = 0; j < ground[i].length; j++) {
+            if(ground[i][j].building instanceof Keep){
+                soldier += ground[i][j].building.worker
+            }
+        }
+    }
+    army = (player.citizen-soldier) + soldier*5;
+    if(Math.random() > (army/x)){
+        player.food = Math.round(player.food / (Math.round(Math.random()*100)%3+1));
+        player.rock = Math.round(player.rock / (Math.round(Math.random()*100)%3+1));
+        player.wood = Math.round(player.wood / (Math.round(Math.random()*100)%3+1));
+        player.gold = Math.round(player.gold / (Math.round(Math.random()*100)%3+2));
+    }
+}
+
+function era(){
+    let disasterList = [flood, collapse, drought, fire, invasion];
+    if(disaster == flood){
+        let intensity;
+        let wavesNumber;
+        if(eraNumber == 1){
+            intensity = 119;
+            wavesNumber = 2;
+        }else if(eraNumber == 2){
+            intensity = 79;
+            wavesNumber = 3;
+        }else if(eraNumber == 3){
+            intensity = 59;
+            wavesNumber = 4;
+        }else if(eraNumber == 4){
+            intensity = 39;
+            wavesNumber = 6;
+        } 
+        game.time.events.repeat(Phaser.Timer.SECOND * intensity, wavesNumber, flood);
+
+    }else if(disaster == collapse){
+        collapse(eraNumber/10);
+    }else if(disaster == drought){
+        let intensity;
+        if(eraNumber == 1){
+            intensity = 160;
+        }else if(eraNumber == 2){
+            intensity = 200;
+        }else if(eraNumber == 3 || eraNumber == 4){
+            intensity = 240;
+        }
+        drought();  
+        game.time.events.add(Phaser.Timer.SECOND * intensity, drought);
+    }else if(disaster == fire){
+        fire(eraNumber/10);
+    }else if(disaster == invasion){
+        invasion(eraNumber*40);
+    }
+
+    disaster = disasterList[Math.round(Math.random()*100)%5];
+    eraNumber ++;
 }

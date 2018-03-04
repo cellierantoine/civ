@@ -5,6 +5,7 @@ class Wood{
 
     destructor(){
         this.sprite.destroy();
+        menuGrass();
     }
 }
 

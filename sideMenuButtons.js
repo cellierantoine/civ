@@ -20,13 +20,14 @@ function menuGrass(){
     let observatoryTxt = "Observatory\nFood : "+OBSERVATORY_F+"\nLumber : "+OBSERVATORY_W+"\nStone : "+OBSERVATORY_R;
     let marketTxt = "Market\nFood : "+MARKET_F+"\nLumber : "+MARKET_W+"\nStone : "+MARKET_R;
     let wonderTxt = "Wonder\nFood : "+WONDER_F+"\nLumber : "+WONDER_W+"\nStone : "+WONDER_R;
+    let keepTxt = "Wonder\nFood : "+KEEP_F+"\nLumber : "+KEEP_W+"\nStone : "+KEEP_R;
 
     buttons[0].updateButton('house', houseTxt, selector.tileSelected.buildHouse);
     buttons[1].updateButton('farm', farmTxt, selector.tileSelected.buildFarm);
     buttons[2].updateButton('observatory', observatoryTxt, selector.tileSelected.buildObservatory);
     buttons[3].updateButton('market', marketTxt, selector.tileSelected.buildMarket);
     buttons[4].updateButton('wonder', wonderTxt, selector.tileSelected.buildWonder);
-    buttons[5].updateButton(-1, "");
+    buttons[5].updateButton('keep', keepTxt, selector.tileSelected.buildKeep);
     buttons[6].updateButton(-1, "");
     buttons[7].updateButton(-1, "");
     buttons[8].updateButton(-1, "");
@@ -119,6 +120,21 @@ function menuFarm(){
     buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
 }
 
+function menuKeep(){
+    buttons[0].updateButton(-1, "");
+    buttons[1].updateButton(-1, "");
+    buttons[2].updateButton(-1, "");
+    buttons[3].updateButton(-1, "");
+    buttons[4].updateButton(-1, "");
+    buttons[5].updateButton(-1, "");
+    buttons[6].updateButton(-1, "");
+    buttons[7].updateButton(-1, "");
+    buttons[8].updateButton('worker+', "Add a soldier", selector.tileSelected.addWorker);
+    buttons[9].updateButton('worker-', "Remove a soldier", selector.tileSelected.removeWorker);
+    buttons[10].updateButton('information', selector.tileSelected.displayInformation);
+    buttons[11].updateButton('bomb', "Destroy the building", selector.tileSelected.destroyBuilding);
+}
+
 function menuMine(){
     buttons[0].updateButton(-1, "");
     buttons[1].updateButton(-1, "");
@@ -195,7 +211,7 @@ function menuMarket2(){
 }
 
 function menuObservatory(){
-    buttons[0].updateButton(-1, "");
+    buttons[0].updateButton('sky', "");
     buttons[1].updateButton(-1, "");
     buttons[2].updateButton(-1, "");
     buttons[3].updateButton(-1, "");
